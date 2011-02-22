@@ -1,0 +1,41 @@
+// Spring Roo 1.1.1.RELEASE [rev 156ccd6] log opened at 2011-01-28 22:37:15
+project --topLevelPackage com.jieyou.adhd
+persistence setup --provider HIBERNATE --database MYSQL
+enum type --class ~.reference.ScaleType
+enum constant --name Commond
+enum constant --name Special
+entity --class ~.domain.Scale --testAutomatically 
+entity --class ~.domain.Question --testAutomatically
+entity --class ~.domain.Answer  --testAutomatically
+entity --class ~.domain.Record --testAutomatically
+
+field string --fieldName scaleName --sizeMin 3 --sizeMax 30 --notNull true --class ~.domain.Scale
+field enum --fieldName scaleType --type ~.reference.ScaleType --notNull
+field string --fieldName description
+field set --fieldName questions --type ~.domain.Question --mappedBy scale --notNull true  --cardinality ONE_TO_MANY
+field set --fieldName answers --type ~.domain.Answer --mappedBy scale --notNull  --cardinality ONE_TO_MANY
+field set --fieldName records --type ~.domain.Record --mappedBy scale --cardinality ONE_TO_MANY
+
+field reference --fieldName scale --type ~.domain.Scale --notNull --class ~.domain.Question
+field string --fieldName sectionDescription --notNull 
+field number --fieldName questionNo --type java.lang.Integer --min 1 --notNull
+field string --fieldName questionContent --notNull
+
+field reference --fieldName scale --type ~.domain.Scale --notNull --class ~.domain.Answer
+field string --fieldName answerDescription --notNull 
+field number --fieldName score --type java.lang.Integer --min 1 --notNull
+
+
+field reference --fieldName scale --type ~.domain.Scale --notNull --class ~.domain.Record
+field string --fieldName patientId --notNull
+field string --fieldName answers --notNull
+field date --fieldName doneDay --type java.util.Date --notNull
+field boolean --fieldName isFinished --notNull  
+test integration 
+//gwt setup
+//dependency add --groupId com.google.appengine --artifactId appengine-api-1.0-sdk --version 1.4.0
+web flow --flowName scaleFlow
+controller all --package ~.web
+security setup
+perform eclipse
+exit

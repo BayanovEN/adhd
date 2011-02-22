@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_jieyou_adhd_domain_Scale" modelAttribute="scale" path="/scales" z="wIJ7/PlkJZftdVMgxhF25t8O7ow=">
+        <field:input field="scaleName" id="c_com_jieyou_adhd_domain_Scale_scaleName" max="30" min="3" required="true" z="iLinvDIQ9vjLqMkU6SgBcy/OMQY="/>
+        <field:select field="scaleType" id="c_com_jieyou_adhd_domain_Scale_scaleType" items="${scaletypes}" path="scaletypes" required="true" z="HuLX3kTKSDpjOh3OZ0VsZEe+mzk="/>
+        <field:input field="description" id="c_com_jieyou_adhd_domain_Scale_description" z="nEnNko+OALnUDW8PZo9piVGauN8="/>
+        <field:simple field="questions" id="c_com_jieyou_adhd_domain_Scale_questions" messageCode="entity_reference_not_managed" messageCodeAttribute="Question" z="opcy310u/lIPLxZRih8Xo4CQgjg="/>
+        <field:simple field="answers" id="c_com_jieyou_adhd_domain_Scale_answers" messageCode="entity_reference_not_managed" messageCodeAttribute="Answer" z="l95X3R/+hNDCu7eM4TLOHryhVVk="/>
+        <field:simple field="records" id="c_com_jieyou_adhd_domain_Scale_records" messageCode="entity_reference_not_managed" messageCodeAttribute="Record" z="aS/mU6Oh6oVhrosvYTR8DueE3EQ="/>
+    </form:update>
+</div>
