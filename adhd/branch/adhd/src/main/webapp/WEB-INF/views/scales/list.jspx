@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jieyou_adhd_domain_Scale" items="${scales}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
+        <table:table data="${scales}" id="l_com_jieyou_adhd_domain_Scale" path="/scales" z="Dl4MbbTDZNTIKSUZnWXH4dfBzcg=">
+            <table:column id="c_com_jieyou_adhd_domain_Scale_scaleName" property="scaleName" z="CNPmgMasBNguzNFEtxNRiPZX8cw="/>
+            <table:column id="c_com_jieyou_adhd_domain_Scale_scaleType" property="scaleType" z="UnZSyD7QbW/4h8Ui8f0fgm6csKE="/>
+            <table:column id="c_com_jieyou_adhd_domain_Scale_description" property="description" z="aUVFE6V2V99gaiqDL5YzfAWXWuc="/>
+            <table:column id="c_com_jieyou_adhd_domain_Scale_questions" property="questions" z="25c5yT56/FRf+tOeopK7quT32vo="/>
+            <table:column id="c_com_jieyou_adhd_domain_Scale_answers" property="answers" z="dtbQ8P2WlOfzsencoHYoZh3z3TI="/>
+            <table:column id="c_com_jieyou_adhd_domain_Scale_records" property="records" z="H3timu8WkyU8LgNv/CrO0seDHWA="/>
+        </table:table>
+    </page:list>
+</div>
