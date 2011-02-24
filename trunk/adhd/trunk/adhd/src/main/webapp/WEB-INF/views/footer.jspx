@@ -9,6 +9,7 @@
       <spring:message code="button_home"/>
     </a>
   </span>
+  
   <c:if test="${pageContext['request'].userPrincipal != null}">
     <c:out value=" | "/>
     <span>
@@ -23,15 +24,17 @@
     <c:out value=" | "/>
     <spring:message code="global_language"/>
     <c:out value=": "/>
-  <util:language label="English" locale="en"/>
+  <util:language label="English" locale="cn"/>
     </span>
   <util:theme/>
 
   <spring:url value="/resources/images/springsource-logo.png" var="logo"/>
   <spring:message code="global_sponsored" var="sponsored"/>
+  
   <span>
     <a href="http://springsource.com" title="${fn:escapeXml(sponsored)}">
       <img align="right" alt="${fn:escapeXml(sponsored)}" src="${logo}"/>
     </a>
   </span>
+  
 </div>

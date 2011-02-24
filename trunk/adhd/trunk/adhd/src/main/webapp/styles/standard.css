@@ -3,7 +3,7 @@
 body,div,td {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #666;
+	color: #454546;
 }
 
 body {
@@ -36,7 +36,7 @@ body {
 	display:box;
 }
 
-#menu {
+#menu {         /*列表大背景颜色*/
     background: #eee;
   	position:relative;
   	float:left;  	
@@ -60,26 +60,26 @@ body {
 	display: block;
 	margin: 0;
 	padding: 2px 6px;
-	color:#FFFFFF;
+	color:#fff;
 }
 
-#menu h2 {
-	color: #fff;
-	background: #648C1D;
+#menu h2 {               
+	color: #000;  /*列表主菜单文字*/
+	background: #6dbee4;  /*列表主菜单背景*/
 	text-transform: uppercase;
 	font-weight:bold;
 	font-size: 12px;
 }
 
-#menu a {
-	color: #666666;
+#menu a {          /*列表超链接颜色*/
+	color: #222;
 	background: #efefef;
 	text-decoration: none;
 	padding: 2px 12px;
 }
 
 #menu a:hover {
-	color: #648C1D;
+	color: #5eb0d7;
 	background: #fff;
 }
 
@@ -94,7 +94,7 @@ body {
 	float:left;
 }
 
-#footer a:link {color: #7db223;}
+#footer a:link {color: #5eb0d7;}
 
 .quicklinks {
 	clear:both; 

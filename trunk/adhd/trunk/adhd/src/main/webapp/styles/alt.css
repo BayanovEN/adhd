@@ -64,22 +64,22 @@ body {
 }
 
 #menu h2 {
-	color: #fff;
-	background: #648C1D;
+	color: #000;
+	background: #6dbee4;
 	text-transform: uppercase;
 	font-weight:bold;
 	font-size: 12px;
 }
 
 #menu a {
-	color: #666666;
+	color: #222;
 	background: #efefef;
 	text-decoration: none;
 	padding: 2px 12px;
 }
 
 #menu a:hover {
-	color: #648C1D;
+	color: #5eb0d7;
 	background: #fff;
 }
 

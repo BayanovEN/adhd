@@ -3,8 +3,10 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_jieyou_adhd_domain_Answer" object="${answer}" path="/answers" z="qiEJTwPxE9zWBlsvaiV+v8LkErA=">
+    
         <field:display field="scale" id="s_com_jieyou_adhd_domain_Answer_scale" object="${answer}" z="knl6H7PenWu3GQPKLJI2KVTxQlc="/>
         <field:display field="answerDescription" id="s_com_jieyou_adhd_domain_Answer_answerDescription" object="${answer}" z="K2YmG7zmaulm2P10KwKxqzQVFj4="/>
         <field:display field="score" id="s_com_jieyou_adhd_domain_Answer_score" object="${answer}" z="vqCOn+EctxH2t7gXcZ/JsOiWmJ8="/>
+    
     </page:show>
 </div>
