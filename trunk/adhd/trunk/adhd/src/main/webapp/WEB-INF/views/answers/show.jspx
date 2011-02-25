@@ -2,6 +2,7 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+    
     <page:show id="ps_com_jieyou_adhd_domain_Answer" object="${answer}" path="/answers" z="qiEJTwPxE9zWBlsvaiV+v8LkErA=">
     
         <field:display field="scale" id="s_com_jieyou_adhd_domain_Answer_scale" object="${answer}" z="knl6H7PenWu3GQPKLJI2KVTxQlc="/>
