@@ -23,5 +23,7 @@
             <menu:item id="i_record_new" messageCode="global_menu_new" url="/records?form" z="IASEpm2t2HtUhlLSx7MqBKbJOYY="/>
         <menu:item id="i_record_list" messageCode="global_menu_list" url="/records?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eHyDkV13JqoEpSwDjqp8HeZWSLk="/>
         </menu:category>
+        
+         
     </menu:menu>
 </div>
