@@ -4,6 +4,7 @@
   <jsp:output omit-xml-declaration="yes"/>
 
   <spring:url value="/" var="home"/>
+  <center>
   <span>
     <a href="${home}">
       <spring:message code="button_home"/>
@@ -36,5 +37,5 @@
       <img align="right" alt="${fn:escapeXml(sponsored)}" src="${logo}"/>
     </a>
   </span>
-  
+  </center>
 </div>
