@@ -2,13 +2,22 @@
   <jsp:directive.page contentType="text/html;charset=UTF-8" />
   <jsp:output omit-xml-declaration="yes" />
   <spring:message var="app_name" code="application_name" />
-  <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" />
+  <spring:message var="title" code="aboutus_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">
-    <h3>
-      <spring:message code="welcome_h3" arguments="${app_name}" />
+    <center>
+    <h1><spring:message code="aboutus_h3" arguments="${app_name}" /></h1>
+    </center>
+    
+    <h3>1、 我们的构成：中国的儿童认知发展研究科学家、认知信息专家、医学专家、教育学家和计算机专家组成。<br />
+        2、 我们的关注：中国儿童注意缺陷多动障碍（ADHD）儿童的临床治疗和认知功能的重构。<br />
+        3、 我们已经开展的工作：<br />
     </h3>
     <p>
-      <spring:message code="welcome_text" />
+      1)	 建立了与加拿大儿童认知发展中心的合作<br />
+      2)	 完成国家创新基金资助资助的儿童认知功能评估系统计算机系统研究<br />
+      3)	 我们正在完成广西城市儿童认知评估项目<br />
+      4)	 我们正在执行广西城市ADHD儿童教师父母教育计划<br />
+     
     </p>
   </util:panel>
 </div>
