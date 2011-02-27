@@ -42,6 +42,6 @@
 	</bean>
 
 	<!-- Custom FlowHandler for the hotel booking flow -->
-	<bean name="hotels/booking" class="com.jieyou.adhd.web.BookingFlowHandler" />	
+	<bean name="views/booking" class="com.jieyou.adhd.web.BookingFlowHandler" />	
 		
 </beans>
