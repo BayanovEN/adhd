@@ -14,9 +14,6 @@
 		</put-attribute>
 	</definition>
 
-	<definition name="hotels/booking" extends="standardLayout">
-		<put-attribute name="body" value="/WEB-INF/views/booking" />
-	</definition>
 	<definition name="hotels/*" extends="standardLayout">
 		<put-attribute name="body" value="/WEB-INF/views/{1}.jsp" />
 	</definition>
