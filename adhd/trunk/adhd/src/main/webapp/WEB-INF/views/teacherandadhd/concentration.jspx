@@ -1,0 +1,43 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="concentration_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>14、更多关于ADHD孩子集中注意力</h2></center>
+    <p>
+ADD ADHD孩子如果使用药物治疗注意力问题比如用利它林，大概在服药后45分钟到2.2小时是最佳的作用期。其它药物会有所不同，最好与医生交流药物的最大药效期。如果可能，尽量为ADD ADHD孩子在药效好的时期内制定需要注意力的任务的计划表。可以与家长合作完成。<br />
+一致性的阶梯性个性化刺激控制计划就很有可能成功。结果和控制的互动反应要尽可能的及时。阶段性的变换奖励常常是必须的。<br />
+如果ADD ADHD孩子相信你真的想让他们成功，那么你的行为计划就很可能成功。如果他们觉得你只是在抓他们的小辫子，那么他们就会把你的计划看作是对他们的惩罚和操纵。同一个计划，不同的解释不同的结果。你必须站在孩子的一边。你必须让有注意缺陷的孩子信服你相信他能战胜。<br />
+有内在一致性的奖励和口头表扬能够极有效的改变注意力问题。一个建议的体系是“关键点体系”。不及时多变的反馈会给你的孩子在延迟激动的困难上增加问题，他会把错误行为和当时情景做错误联系。<br />
+ADD ADHD孩子对他们认为是刺激经历的奖励反应良好。电脑游戏、多媒体音乐、及体能游戏（运动和其它身体活动）、积木搭建，以及在学校背景外活动，都是他们喜爱的游戏。可以询问有注意缺陷的孩子他们想要什么样的奖励。他们自己是确定奖励的最佳资源。<br />
+奖励要经常改变以满足他们对新颖的热爱。<br />
+对任何行为计划来说ADD ADHD孩子在计划开始时能成功积分并兑换想要的激励都是至关重要的。<br />
+注意缺陷的一个特征就是工作成绩在不同背景、不同任务和时间变化很大。换句话说，ADDD ADHD孩子有好日子也有坏日子。与其认为有些任务上成绩好有些却差是由于动机和意愿导致的，还不如理解成这是注意力问题的本性来得深刻。你的ADD ADHD孩子对他认为确实有趣和刺激的任务要做的好。他在需要持续注意力和无趣的任务上表现较差。<br />
+如果你令你的ADD ADHD孩子感到无趣他们的表现就差。所以当他们表现差时你要反问自己是不是你的课太无趣了。<br />
+ADD ADHD孩子在需要复杂的问题解决策略的任务上会感到很难。这是在“执行程序”上的继续的困难（策略是用来组织监控思想和行动）。你的ADD ADHD孩子不太能从他的错误中学习，而且爱猜测答案。帮助你的有注意缺陷孩子发展问题解决策略。<br />
+尽管你的ADD ADHD孩子看起来口头表达能力很强，但他却可能在把想法写下来时做的很差。也许是从大脑到胳膊到手的距离太长了，而从嘴到大脑要近多了。帮助有注意缺陷的孩子发展写作能力。<br />
+我的一个朋友患有ADD，语言很丰富，但是要让她写一张简单的感谢信也要花上一个小时。这对她一直是个难题，所以，学业对她也是个难题。当你的ADD ADHD孩子学习写作时一定要给他们一些智慧。教会他们写作的基本技巧，并不断鼓励他们。当作业需要创作性写作或报告时，让他们口头表达出来，或讲给老师或用录音机记录，要比让他写效果好很多。然后让孩子将所说的记录下来。这种方法可以通过把需要书面语言的任务中的写的成分去掉而达到很好的完成效果。<br />
+如果注意缺陷的孩子自己参与制定目标会更有效。目标要简单易懂。2-3个目标就足够了。评价成功或积分的标准应该简单明了。计划能在早期获得成功或积分是个关键。询问ADD ADHD孩子想要建立的目标或在老师设定的目标单中选择。他们本人在目标设定中所扮演的角色成分越大，他们在实现的过程中投入的就越多。<br />
+在考试时最好有专人监控ADD ADHD孩子，尤其是对多项选择、填空题和可能看错行、填错地方或是感到沮丧后就胡乱答题只是简单完成考试。<br />
+强调工作程序以加强检查。注意缺陷的孩子往往只是完成任务而不加检查就交上去。给ADD ADHD 孩子一些如何检查的知道并专门给他们一些相关联系。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a> 14 </a>
+</p></center>
+  </util:panel>
+</div>

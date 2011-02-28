@@ -1,0 +1,37 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="moresuggestions_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>父母与ADHD</h1></center>
+   <center><h2>3、更多给小学ADHD孩子的建议</h2></center>
+    <p>
+使用黑色印刷体字作为作业和考试用字。（尽量避免用手写题目或用彩色字体）<br />
+在能造成纯白纸反光的房间使用压光纸张比较好。<br />
+写出清晰、简单的指导。<br />
+让孩子将关键词汇划出来或在读指导时让他们划出来你读的部分。<br />
+对你所强调的知识部分用圈划出来。<br />
+把一页知识分成几部分，并为这不同部分列出有机的提纲<br />
+如果可能的话用彩色笔在作业或考卷中作为提醒，尤其对那些可能需要死记硬背或很可能令人厌知识点。<br />
+经常给予小考试，应避免长时间的考试。<br />
+经常给予考试练习。<br />
+最好在考试环境中间减少干扰。<br />
+可以尝试使用录音机记录ADD ADHD孩子的口头答案或给这些孩子进行口头测试。<br />
+你是否曾发现找了几个星期的作业本竟然就在他书包的一角？<br />
+家长们是否你的孩子花两个小时做本该半小时就完成的作业，还伴随哭闹、哀叹？<br />
+</p>   
+ <center><p>
+<a href="${home}/adhd/parentsandadhd/easilybored"> 1 </a>|
+<a href="${home}/adhd/parentsandadhd/homeworkandtips"> 2 </a>|
+<a> 3 </a>|
+<a href="${home}/adhd/parentsandadhd/littlesuggestions"> 4 </a>|
+<a href="${home}/adhd/parentsandadhd/increasingtime"> 5 </a>|
+<a href="${home}/adhd/parentsandadhd/managebehaviors"> 6 </a>|
+<a href="${home}/adhd/parentsandadhd/improvesocialskills"> 7 </a>|
+<a href="${home}/adhd/parentsandadhd/reasons"> 8 </a>|
+<a href="${home}/adhd/parentsandadhd/improveperformance"> 9 </a>|
+<a href="${home}/adhd/parentsandadhd/concentration"> 10 </a>
+</p></center> 
+  </util:panel>
+</div>

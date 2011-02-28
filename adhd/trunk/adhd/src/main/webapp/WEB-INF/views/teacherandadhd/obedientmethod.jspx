@@ -1,0 +1,35 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="obedientmethod_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>12、更多的增加顺从的方法</h2></center>
+    <p>
+不要因为ADD ADHD孩子不恰当的行为而侮辱他，这时能指出一个替代性的办法才是正确的办法。这样可以给他一个明确的期望、方法并且还能避免对缺点的重复所带来的伤害。<br />
+在一些小学，老师与孩子事先约定好提示暗号。当不适当的行为发生时，老师可以给出视觉信号（摸耳朵）或口头信号（注意，我在寻找注意听讲的孩子）。这样的提示可以避免直接的冲突不会刺伤自尊。这不仅适用于老师也同样适用于其他能支持孩子的人，父母、朋友等等。<br />
+鼓励你的小孩子监控自己的行为有很多益处。当孩子和老师对行为的度有异议时才有机会可以讨论。它还可以激发孩子评价自己行为的内在指导体系。<br />
+记住被奖励过的行为倾向于再出现。<br />
+令人厌烦的行为倾向于消失，除非是反社会行为。<br />
+对任务集中精力和对遵从性的有目的的奖励能使大大增加这些行为再出现的可能性。<br />
+努力、高效、持久、期待更多。<br />
+</p>  
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>  
+  </util:panel>
+</div>

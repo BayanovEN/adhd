@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="aboutADHD/whatisadhd">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/whatisadhd.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="aboutADHD/maindiseaseofadhd">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/maindiseaseofadhd.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="aboutADHD/whyhavedisease">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/whyhavedisease.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="aboutADHD/howmany">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/howmany.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="aboutADHD/commondiseases">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/commondiseases.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="aboutADHD/symptoms">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/symptoms.jspx"/>
+    </definition>    
+    
+    <definition extends="default" name="aboutADHD/harm">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/harm.jspx"/>
+    </definition>  
+    
+    <definition extends="default" name="aboutADHD/treatments">
+        <put-attribute name="body" value="/WEB-INF/views/aboutADHD/treatments.jspx"/>
+    </definition> 
+
+</tiles-definitions>

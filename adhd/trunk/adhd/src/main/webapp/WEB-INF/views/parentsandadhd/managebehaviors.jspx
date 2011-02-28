@@ -1,0 +1,41 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="managebehaviors_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>父母与ADHD</h1></center>
+   <center><h2>6、管理冲动行为</h2></center>
+    <p>
+“ADHD”小孩子往往做事前不思考。从行为学上看，这是缺乏对因果关系的理解。注意缺陷的孩子不考虑他们行为的后果。他们讲话也不考虑别人怎么看。<br />
+研究还发现注意缺陷的孩子能口头讲述在特定地点的行为规范但却很难将其内化并产生理性的行为。难以延迟对自己的满足更增加了冲动行为。<br />
+一些临床医生认为缺乏自制（行为没规律缺乏抑制）比不能集中注意力对ADHD儿童更成问题。<br />
+（一）你能怎样帮助ADHD儿童提高自制力呢？<br />
+让有注意缺陷的孩子在解决问题时大声说出来，老师就可以发现他们的推理方式而且这样做也可以延缓他们做出冲动行为。在提问ADHD孩子时让他等15-20秒有足够的时间思考后再回答不是马上冲动反应。<br />
+经常，注意缺陷的孩子不断的在人际互动行为方面有某种特定的困难；不能排队，插话，充满敌意的讲话，极端的理解别人的行为，误解社会示意。在ADHD孩子的配合下，学校的老师、好朋友是可以对那些一再发生的行为识别的。<br />
+用角色扮演的方法来再现问题及可能的解决方法。可以利用他的朋友一起进行角色扮演。让你的ADHD孩子在学校实践这些方法并让他本人或其他旁观者对他的成功给你汇报。<br />
+教会你的ADHD孩子在说话前“停下-想想”。这能帮助他不忙着冲口而出。鼓励深思熟虑的反应。<br />
+教室的行为规范在小学应简单、明了。让班级通过所制定的规则。每天要复习班级规则。<br />
+要不断调整班级管理办法。积极鼓励你希望出现的行为。集中在好的行为的奖励上而不是惩罚。<br />
+（二）更多提高小孩子自制力的小办法<br />
+使用记时钟来指示独立工作的每个阶段的时间并管理好班级纪律。一开始可以是5-10分钟一个阶段根据班级的成功表现逐步增加时间。如果必要，可用契约法与个别孩子及其家长加强某些特定行为。<br />
+为ADHD孩子制定依据其需要的小时、天、周及月目标。经常性就这些目标给孩子的进步以反馈。<br />
+提供变化的排队方式给予守纪律者以奖励或特权以避免ADHD孩子在纪律约束下爆发。<br />
+提高教室以外活动行为的质量，允许当班级获得其他老师、员工表扬时获得奖励。不要因为ADHD孩子的行为而指责整个班级。<br />
+当遇到孩子情绪不稳从根本上拒绝接受不好的结果（比如拒绝暂停），放一个记时钟在拒绝发生后记个1-2分钟。告诉孩子他可以用这两分钟决定是愿意接受暂停呢还是非要闹出严重后果来。能有几个有经验的老师能坚持这种方法就能成功加强孩子们对自己身体的约束及在这种环境的爆发行为逐步降级。<br />
+很多有ADHD的小孩子因为他们的冲动社会技能都很差，或对他人缺乏同情。他们很少意识到他们的行为对别人的影响，或别人将对他们所说或所做的怎样反应。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/parentsandadhd/easilybored"> 1 </a>|
+<a href="${home}/adhd/parentsandadhd/homeworkandtips"> 2 </a>|
+<a href="${home}/adhd/parentsandadhd/moresuggestions"> 3 </a>|
+<a href="${home}/adhd/parentsandadhd/littlesuggestions"> 4 </a>|
+<a href="${home}/adhd/parentsandadhd/increasingtime"> 5 </a>|
+<a> 6 </a>|
+<a href="${home}/adhd/parentsandadhd/improvesocialskills"> 7 </a>|
+<a href="${home}/adhd/parentsandadhd/reasons"> 8 </a>|
+<a href="${home}/adhd/parentsandadhd/improveperformance"> 9 </a>|
+<a href="${home}/adhd/parentsandadhd/concentration"> 10 </a>
+</p></center>
+  </util:panel>
+</div>

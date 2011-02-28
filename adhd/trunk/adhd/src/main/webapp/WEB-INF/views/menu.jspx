@@ -24,10 +24,39 @@
         <menu:item id="i_record_list" messageCode="global_menu_list" url="/records?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eHyDkV13JqoEpSwDjqp8HeZWSLk="/>
         </menu:category>
   
+    <menu:category id="c_aboutadhd" z="vvWXWZKWPd">
+        <menu:item id="i_whatisadhd" messageCode="global_menu_whatisadhd" url="/aboutADHD/whatisadhd" z="eHyDkV13JqoEpS"/>
+        <menu:item id="i_maindiseaseofadhd" messageCode="global_menu_maindiseaseofadhd" url="/aboutADHD/maindiseaseofadhd" z="eHyDkV13JqoEpS"/>
+        <menu:item id="i_whyhavedisease" messageCode="global_menu_whyhavedisease" url="/aboutADHD/whyhavedisease" z="eHyDkV13JqoEpS"/>
+        <menu:item id="i_howmany" messageCode="global_menu_howmany" url="/aboutADHD/howmany" z="HykV13JqoEpS"/>
+        <menu:item id="i_commondiseases" messageCode="global_menu_commondiseases" url="/aboutADHD/commondiseases" z="yD3Jk13JqoEpqpS"/>
+        <menu:item id="i_symptoms" messageCode="global_menu_symptoms" url="/aboutADHD/symptoms" z="eHyDk13JqoEpS"/>
+        <menu:item id="i_harm" messageCode="global_menu_harm" url="/aboutADHD/harm" z="eH13JqoEpSyDk"/>
+        <menu:item id="i_treatments" messageCode="global_menu_treatments" url="/aboutADHD/treatments" z="eH1EpSyD3Jqok"/>
+        </menu:category>
+        
+     <menu:category id="c_teacherandadhd" z="vvWXWZKWPd">
+        <menu:item id="i_teacherandadhd" messageCode="global_menu_teacherandadhd" url="/teacherandadhd/teacherandadhd" z="eHyDkV13JqoEpS"/>
+        </menu:category>
+     
+     <menu:category id="c_parentsandadhd" z="vvWXWZKWPd">
+        <menu:item id="i_parentsandadhd" messageCode="global_menu_parentsandadhd" url="/parentsandadhd/easilybored" z="eHyDkV13JqoEpS"/>
+        </menu:category>
+     
+     <menu:category id="c_aboutdrugtreatment" z="vvWXWZKWPd">
+        <menu:item id="i_aboutdrugtreatment" messageCode="global_menu_aboutdrugtreatment" url="/aboutdrugtreatment/aboutdrugtreatment" z="eHyDkV13JqoEpS"/>
+        </menu:category>
+        
+     <menu:category id="c_aboutcognitivetreatment" z="vvWXWZKWPd">
+        <menu:item id="i_aboutcognitivetreatment" messageCode="global_menu_aboutcognitivetreatment" url="/aboutcognitivetreatment/aboutcognitivetreatment" z="eHyDkV13JqoEpS"/>
+        </menu:category>
+  	 
+  	 <menu:category id="c_physicianscolumn" z="vvWXWZKWPd">
+        <menu:item id="i_physicianscolumn" messageCode="global_menu_physicianscolumn" url="/physicianscolumn/physicianscolumn" z="eHyDkV13JqoEpS"/>
+        </menu:category>
+        
     <menu:category id="c_aboutus" z="vvWXWZKWPd">
         <menu:item id="i_aboutus" messageCode="global_menu_aboutus" url="/aboutus" z="eHyDkV13JqoEpS"/>
         </menu:category>
-  
-         
     </menu:menu>
 </div>

@@ -1,0 +1,51 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="teacherandadhd_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>1、教室建立</h2></center>
+    <p>
+     对于ADHD孩子的一个黄金法则是“周围的干扰越少越好”。<br />
+我们希望ADHD孩子能对该集中的对象在该集中注意力时集中。<br />
+编排建制你的班级以帮助ADHD孩子。<br />
+从某天开始，制定出清晰、明确的班规并把它张贴起来，记住要带有明确的奖惩措施。<br />
+把你的ADD/ADHD孩子的座位安排在较少干扰、靠近老师方便监管鼓励的地方，或跟一个注意力集中的孩子坐同桌。<br />
+吃小灶是会有效果的，但要注意不要让孩子感到尴尬。<br />
+有注意问题的孩子在四面墙的环境中要比在开放性环境中表现好。开方式环境在白天有太多的视听刺激干扰。<br />
+按排布置座位比成组环形坐效果要好。成组环形坐对ADHD孩子的干扰刺激太大。理想的设置是，对需要独立完成的任务成排坐，对需要合作的任务围桌坐。当然，我们很难达到这种理想环境。<br />
+一旦偶尔需要即讨论又要独立工作时将座位安排成马蹄形。<br />
+你的ADD/ADHD孩子的座位应该靠近老师（以便于监管和激励），远离其他有挑战的孩子，最好不要跟其它桌子靠在一起。但是，如果你发现你的ADHD孩子总是东张西望找噪音来源，那他可能是听觉更易受干扰，这种孩子坐在教室的后边反而比较好。如果你的孩子更容易受视觉干扰，你可以实验将他安排在讲台附近和你想实验的位置并比较效果，再做定夺。<br />
+对老师来说能在教室范围内四处走动是很重要的，这样可以接触到每一个孩子。试试通过在教室中四处走动的管理方式。互动交流越多越好。当你给出指令或讲话时让你所有的ADD/ADHD孩子都坐在最前面。<br />
+保持教室中有一部分位置不受视觉和听觉的干扰。至少保证教室中的一部分免受强光、噪音或易引起干扰的对象的干扰。<br />
+谨慎使用课桌分割和/或学习小阅读室。保证这些方法是用来作为“学习区域选择的”而不是作为一种惩罚手段使用。<br />
+注意缺陷的孩子如果对他需要集中注意力的时间段有预期有准备的话，他的表现会好很多。制作每天的课程表为你的孩子张贴起来。<br />
+如果你的ADD/ADHD孩子倾向于不集中，他的激活水平在一天中逐步升高，你就要注意课程表中最需要注意力的内容应放在上午进行。<br />
+我们的愿望是给孩子们一个有魅力的教室，尽量避免听觉和视觉干扰的出现。尽量把你的ADD/ADHD的孩子安排在影响最小的地方。<br />
+把那些聪明、安静的女孩挨着这些ADHD的孩子。<br />
+当给出指令或讲课文时尽量站在ADHD孩子身边。<br />
+用ADD/ADHD孩子的作业纸作为布置作业时的例子。<br />
+我们知道老师不是控制天气的上帝也不是看温控器的管理员。不过你最好尽力给孩子们提供舒适照明和合适的室内温度。<br />
+可以使用耳机给出白色噪音或轻柔的音乐阻断其他的噪音干扰。必须确定给的音乐不是太吸引人以免成为一种干扰。<br />
+现今比较流行的是播放古典音乐或巴洛克风格的音乐作为孩子学习时的背景声音。事实上这样做可以真的有作用。<br />
+很多孩子从自己家里带来自己的干扰源（玩具）。试着制定出在指定的时间和地点与同学们一起分享的教室规则，并在规则中禁止这些玩具等自带干扰源在教室中的课桌上随意出现。<br />
+</p>   
+ <center><p>
+<a> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>
+  </util:panel>
+</div>

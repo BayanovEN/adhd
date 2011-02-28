@@ -1,0 +1,33 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="homeworkandtips_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>4、给小学的ADHD孩子的作业单和其他小贴士</h2></center>
+    <p>
+强调作业的质量而不是数量。这才应该是做老师真正要的。<br />
+ADHD的孩子会很容易被压跨和泄气。所以应该减少一页上的作业量，一页上不是30道题而是应该只给10-15道。这样的话ADHD孩子就不感到被压跨，而且成功的感觉可以建立良好的自尊体系，这样才能让他真正完成全部作业。<br />
+小学的ADHD孩子可能很想在任务中充当“第一个完成者”，这样虽然对他是个激励，但极有可能快而不准确，甚至不能完成任务。所以要给他们建立精确的目标体系，并且一次性收一个小组全部的作业，以减少ADHD孩子的时间压力及总想争第一的压力。<br />
+保持作业页面格式简单。也就是在页面上不要出现额外的与要解决的题目无直接关系的图片。每页上最好有留白。
+<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>
+  </util:panel>
+</div>

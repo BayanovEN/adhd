@@ -1,0 +1,36 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="socialskills_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>10、更多建议：ADHD小孩子的社会技能</h2></center>
+    <p>
+有注意缺陷的小孩子在有指导的合作团队中也能表现良好。小团队由3-5人组成，他们扎成堆共同完成作业或任务，鼓励孩子们分享团队的意见和责任，并给出了理想的进行人际交流技能的背景环境。<br />
+小的由2-4人组成的游戏小组能帮助ADD ADHD孩子发展有效的社会技能。如果能把社会上的竞争伙伴自愿的包纳进来，这样的小组会最有效。这样的小组应集中在强调互动合作活动上。<br />
+你的ADD ADHD孩子能将事先选定的目标社会技能进行训练再在实际社会实践中表现受益最大。角色扮演事先进行。<br />
+很多注意缺陷的孩子在校外缺少朋友。如果与孩子和家长为家庭环境下联合制定一个“交友计划”策略是会大有益处的。有时设定建立一个特别的友谊关系的目标就足够了。这包括先鉴别成为朋友的可能性，联系通过电话约会的能力，计划一种以前练习过的社会交往结构，以及给孩子一些能最终交成朋友的技巧。<br />
+一种帮助ADD ADHD孩子学习社会技能的深入的方法是通过对他们的伙伴在操场使用有指导的观察。与他们一起在操场指出其他孩子的如何开始一个活动，如何在运动中合作，如何应对拒绝，如何解决独处，等等。<br />
+对于很多注意缺陷多动障碍的孩子来说，在操场上呆30分钟以超出他们成功保持伙伴关系的能力范围。如果必须，把活动断成每十分钟休息一次，与你或其他指导者交流，然后再去玩十分钟。<br />
+严格控制让孩子们活动的区域及在休息时及时与指导者交流会减少社会决策过程的复杂性。很多ADD ADHD孩子喜欢这种简化的结构不复杂的社会互动。<br />
+在ADD ADHD孩子在去食堂或操场之前与他们交流在休息期间计划的活动及他们打算与谁呆在一起，他是否已经和伙伴商量好休息时的活动了。在休息结束后再与你的ADD ADHD孩子交流并给出下一次类似活动时的建议。<br />
+</p>  
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>  
+  </util:panel>
+</div>

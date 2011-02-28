@@ -1,0 +1,12 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="harm_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>儿童ADHD对儿童的危害</h1></center>
+    <p>
+     以抑郁症、焦虑症为主。在语言方面的不足，行为与他人的差异，使其无法由于无法与他人正常交往，合作。会出现反社会反人类或自杀等心理现象。而由于药价较贵，认识不足导致早期无法得到很好的治疗。在成年后，变为社会不良分子，给社会造成混乱。<br /> 　　
+	</p>    
+  </util:panel>
+</div>

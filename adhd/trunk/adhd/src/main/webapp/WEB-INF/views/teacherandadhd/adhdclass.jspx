@@ -1,0 +1,36 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="adhdclass_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>2、在小学给ADHD的孩子上课</h2></center>
+    <p>
+一旦需要给有注意缺陷的孩子进行个别辅导，可以让年龄大的孩子辅导他，并且可以让ADHD孩子去辅导年龄小的孩子。<br />
+给ADHD的孩子把要学习的课中关键概念或词汇列出提纲。<br />
+即使在你身边，ADHD的孩子也是容易厌烦的。试试变化课程教授时的节奏。包括在每次课程中配合的各种各样适应小学教育的活动。<br />
+利用多感觉渠道来呈现课程，但一定要注意使用视听帮助时要让干扰因素保持最小。例如，保证有趣的图片或声音是与要学习的内容直接相关。千万不要盲目使用多媒体教授所有课程。<br />
+注意将课程总结或将长的课程讲述分割成几块。讲课时要活跃，吸引注意缺陷孩子的注意力。要让小学年龄阶段的注意缺陷的孩子得到一种指导性的帮助，那就是在黑板上写出关键概念词语或中心思想。鼓励ADD、ADHD的孩子对黑板上写出的概念信息在大脑中尽量用想象的视觉图象展现。询问他们的想象以确保他们对所学的内容的视觉表象是正确的。<br />
+要让小孩子们对课程保持高频的反应，可以使用合唱队策略，也就是对多人进行高频的提问，老师用手提问，孩子用举手作为信号要求回答。<br />
+试着用角色扮演的方法表演关键的概念、历史事件、词汇等等。大量的实践证明这种方法效果非常好。你需要有创造力！要把教学、激励和娱乐合理的揉为一体。对孩子来说给他们的课程越令人激动他们学的越好。<br />
+老师与孩子的比例在开始的艰难时刻是个重要的问题，孩子人数较少才能提高并保证老师反馈的及时。如果老师觉得精力不够，可以试着组织家长志愿者，与专业人员一起组成支持团队。<br />
+</p>   
+  <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>
+  </util:panel>
+</div>

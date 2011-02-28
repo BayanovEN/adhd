@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="teacherandadhd/teacherandadhd">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/teacherandadhd.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="teacherandadhd/adhdclass">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/adhdclass.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="teacherandadhd/easilybored">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/easilybored.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="teacherandadhd/homeworkandtips">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/homeworkandtips.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="teacherandadhd/moresuggestions">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/moresuggestions.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/littlesuggestions">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/littlesuggestions.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/increasingtime">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/increasingtime.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/managebehaviors">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/managebehaviors.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/improvesocialskills">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/improvesocialskills.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/socialskills">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/socialskills.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/reasons">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/reasons.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/obedientmethod">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/obedientmethod.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/improveperformance">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/improveperformance.jspx"/>
+    </definition>
+    <definition extends="default" name="teacherandadhd/concentration">
+        <put-attribute name="body" value="/WEB-INF/views/teacherandadhd/concentration.jspx"/>
+    </definition>
+</tiles-definitions>

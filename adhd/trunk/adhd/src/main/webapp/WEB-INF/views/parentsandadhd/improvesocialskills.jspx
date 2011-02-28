@@ -1,0 +1,30 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="improvesocialskills_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>父母与ADHD</h1></center>
+   <center><h2>7、提高社会技能</h2></center>
+    <p>
+给有ADD ADHD的孩子提供一个安全的环境。要让孩子知道你是他的朋友并且你总会帮助他。要真正的尊重他。千万不要在他的伙伴面前藐视他。他和他的伙伴都知道他有些不一样，如果老师藐视孩子那么其他的孩子就会象得到老师允许一样也藐视他。孩子们就都会变的很残酷。<br />
+有注意缺陷的孩子会在社会上遭遇很多麻烦，尤其是在处理伙伴关系方面。他们不太能感受正常的社会暗示，他们行为冲动，对自己对他人的影响缺乏自知，进入角色比较慢，往往非常自我的把别人的行为当作批评，并且对积极反馈不敏感。<br />
+ADD ADHD孩子在他们的角色清晰时与比他们年龄大的或年龄小的孩子玩的比较好。<br />
+这些注意缺陷的孩子倾向于重复自己失败的社会行为方式并且很难从经验中学习。<br />
+谈话时，他们会很随意并会对同伴说出令人尴尬的话。<br />
+时间和地点上缺少结构和监管时，例如操场和班会，这时会是个问题。有着良好社会认知能力愿意帮助别人的孩子可以与ADD ADHD 的孩子搭成伴帮助他们。这种搭伴可以是“学习好伙伴”的形式，在一起活动完成项目、一起在操场上玩。与较年长或较小的跨年龄组的人组成辅导组也是有社会益处的。最成功的配对是对被配对的孩子进行充分准备的小组，要与配对小组表明对他们的期望，要得到家长的同意。给出期望并给出指定的时间限定范围这样能增加成功率，减少对配对孩子的束缚。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/parentsandadhd/easilybored"> 1 </a>|
+<a href="${home}/adhd/parentsandadhd/homeworkandtips"> 2 </a>|
+<a href="${home}/adhd/parentsandadhd/moresuggestions"> 3 </a>|
+<a href="${home}/adhd/parentsandadhd/littlesuggestions"> 4 </a>|
+<a href="${home}/adhd/parentsandadhd/increasingtime"> 5 </a>|
+<a href="${home}/adhd/parentsandadhd/managebehaviors"> 6 </a>|
+<a> 7 </a>|
+<a href="${home}/adhd/parentsandadhd/reasons"> 8 </a>|
+<a href="${home}/adhd/parentsandadhd/improveperformance"> 9 </a>|
+<a href="${home}/adhd/parentsandadhd/concentration"> 10 </a>
+</p></center>
+  </util:panel>
+</div>

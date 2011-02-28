@@ -1,0 +1,31 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="increasingtime_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>父母与ADHD</h1></center>
+   <center><h2>5、增加你的ADHD小孩子在任务上的时间</h2></center>
+    <p>
+促进注意缺陷孩子做事情的时间，而不是完成任务的时间。奖励你希望他们在学校中做的事。要事先列出你要奖励的行为和你不希望出现的行为。在他的书桌上放一只分钟记时钟。问问你的孩子在做某件事前考虑做这件事需要多久，然后让他定上时间看看最终用了多少时间。大多数有注意缺陷的小孩子都不能至始至终的保持注意力，他们需要不同水平的刺激来保持注意力集中。<br />
+ADHD: Time on Task Tips for Elementary School <br />
+ADHD：对小孩子任务时间的小贴士<br />
+把任务分成几小段允许他们在段间休息并活动。但这种休息决不同于外出散步、在楼周围玩耍、做体操等等类似的活动。<br />
+最好把最需要注意力的活动放到上午。<br />
+你的ADD ADHD的孩子可能被巨大的作业量吓怕。参看作业的量与时间的安排部分。 <br />
+冲动是注意缺陷多动障碍小孩子的一个大标签。不是所有的有ADHD的小孩子都“冲动”但多数如此。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/parentsandadhd/easilybored"> 1 </a>|
+<a href="${home}/adhd/parentsandadhd/homeworkandtips"> 2 </a>|
+<a href="${home}/adhd/parentsandadhd/moresuggestions"> 3 </a>|
+<a href="${home}/adhd/parentsandadhd/littlesuggestions"> 4 </a>|
+<a> 5 </a>|
+<a href="${home}/adhd/parentsandadhd/managebehaviors"> 6 </a>|
+<a href="${home}/adhd/parentsandadhd/improvesocialskills"> 7 </a>|
+<a href="${home}/adhd/parentsandadhd/reasons"> 8 </a>|
+<a href="${home}/adhd/parentsandadhd/improveperformance"> 9 </a>|
+<a href="${home}/adhd/parentsandadhd/concentration"> 10 </a>
+</p></center>
+  </util:panel>
+</div>

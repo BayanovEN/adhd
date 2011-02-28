@@ -29,7 +29,45 @@
 	<mvc:view-controller path="/uncaughtException"/>
 	<mvc:view-controller path="/resourceNotFound"/>
 	<mvc:view-controller path="/dataAccessFailure"/>
-
+	<mvc:view-controller path="/aboutADHD/whatisadhd" view-name="aboutADHD/whatisadhd"/>
+	<mvc:view-controller path="/aboutADHD/maindiseaseofadhd" view-name="aboutADHD/maindiseaseofadhd"/>
+	<mvc:view-controller path="/aboutADHD/whyhavedisease" view-name="aboutADHD/whyhavedisease"/>
+	<mvc:view-controller path="/aboutADHD/howmany" view-name="aboutADHD/howmany"/>
+	<mvc:view-controller path="/aboutADHD/commondiseases" view-name="aboutADHD/commondiseases"/>
+	<mvc:view-controller path="/aboutADHD/symptoms" view-name="aboutADHD/symptoms"/>
+	<mvc:view-controller path="/aboutADHD/harm" view-name="aboutADHD/harm"/>
+	<mvc:view-controller path="/aboutADHD/treatments" view-name="aboutADHD/treatments"/>
+	
+	<mvc:view-controller path="/teacherandadhd/teacherandadhd" view-name="teacherandadhd/teacherandadhd"/>
+	<mvc:view-controller path="/teacherandadhd/adhdclass" view-name="teacherandadhd/adhdclass"/>
+	<mvc:view-controller path="/teacherandadhd/easilybored" view-name="teacherandadhd/easilybored"/>
+	<mvc:view-controller path="/teacherandadhd/homeworkandtips" view-name="teacherandadhd/homeworkandtips"/>
+	<mvc:view-controller path="/teacherandadhd/moresuggestions" view-name="teacherandadhd/moresuggestions"/>
+	<mvc:view-controller path="/teacherandadhd/littlesuggestions" view-name="teacherandadhd/littlesuggestions"/>
+	<mvc:view-controller path="/teacherandadhd/increasingtime" view-name="teacherandadhd/increasingtime"/>
+	<mvc:view-controller path="/teacherandadhd/managebehaviors" view-name="teacherandadhd/managebehaviors"/>
+	<mvc:view-controller path="/teacherandadhd/improvesocialskills" view-name="teacherandadhd/improvesocialskills"/>
+	<mvc:view-controller path="/teacherandadhd/socialskills" view-name="teacherandadhd/socialskills"/>
+	<mvc:view-controller path="/teacherandadhd/reasons" view-name="teacherandadhd/reasons"/>
+	<mvc:view-controller path="/teacherandadhd/obedientmethod" view-name="teacherandadhd/obedientmethod"/>
+	<mvc:view-controller path="/teacherandadhd/improveperformance" view-name="teacherandadhd/improveperformance"/>
+	<mvc:view-controller path="/teacherandadhd/concentration" view-name="teacherandadhd/concentration"/>
+	
+	<mvc:view-controller path="/parentsandadhd/easilybored" view-name="parentsandadhd/easilybored"/>
+	<mvc:view-controller path="/parentsandadhd/homeworkandtips" view-name="parentsandadhd/homeworkandtips"/>
+	<mvc:view-controller path="/parentsandadhd/moresuggestions" view-name="parentsandadhd/moresuggestions"/>
+	<mvc:view-controller path="/parentsandadhd/littlesuggestions" view-name="parentsandadhd/littlesuggestions"/>
+	<mvc:view-controller path="/parentsandadhd/increasingtime" view-name="parentsandadhd/increasingtime"/>
+	<mvc:view-controller path="/parentsandadhd/managebehaviors" view-name="parentsandadhd/managebehaviors"/>
+	<mvc:view-controller path="/parentsandadhd/improvesocialskills" view-name="parentsandadhd/improvesocialskills"/>
+	<mvc:view-controller path="/parentsandadhd/reasons" view-name="parentsandadhd/reasons"/>
+	<mvc:view-controller path="/parentsandadhd/improveperformance" view-name="parentsandadhd/improveperformance"/>
+	<mvc:view-controller path="/parentsandadhd/concentration" view-name="parentsandadhd/concentration"/>
+	
+	<mvc:view-controller path="/aboutdrugtreatment/aboutdrugtreatment" view-name="aboutdrugtreatment/aboutdrugtreatment"/>
+	<mvc:view-controller path="/aboutcognitivetreatment/aboutcognitivetreatment" view-name="aboutcognitivetreatment/aboutcognitivetreatment"/>
+	<mvc:view-controller path="/physicianscolumn/physicianscolumn" view-name="physicianscolumn/physicianscolumn"/>
+	
 	<!-- Resolves localized messages*.properties and application.properties files in the application to	allow for internationalization. 
 		The messages*.properties files translate Roo generated messages which are part of the admin interface, the application.properties
 		resource bundle localizes all application specific messages such as entity names and menu items. -->

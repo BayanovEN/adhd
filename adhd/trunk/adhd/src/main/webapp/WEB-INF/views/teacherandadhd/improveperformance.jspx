@@ -1,0 +1,32 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="improveperformance_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>13、提高表现的持久性</h2></center>
+    <p>
+计算机对注意缺陷孩子的反馈是极迅速的。它们可以提供1对1的练习，并且它们可以给予高强度的刺激。一旦需要就要对ADD ADHD孩子使用它们。<br />
+你可能发现当你要求ADD ADHD孩子改变自己的行为时，他们却很难改变。如果需要在日常习惯上有所改变就要养成良好习惯，并在事前告知孩子。这样做孩子能更好的集中在要提高的方面。<br />
+要注意把ADD ADHD孩子在校行为的显著变化及时通报给家长、或学校心理医生。这些变化有可能是医疗线索也可能有其它意义，总之家长和医生很可能需要知道。<br />
+ADD ADHD孩子在一天的学校生活中可能需要一个平静的可以减压的地方。经常来说，也就是简单的提供一个孩子可以独处的地方、或能玩玩电脑、散散步、画画、或玩玩泥沙。10-15分钟后，你的孩子恢复了精力可以再次回到教室。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>
+  </util:panel>
+</div>
