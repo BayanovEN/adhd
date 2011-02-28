@@ -1,0 +1,57 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="littlesuggestions_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>6、关于管理组织ADHD孩子的小建议</h2></center>
+    <p>
+管理ADHD孩子的环境。<br />
+在他的学习桌上使用有标签的分格以便于他能很容易找到东西。<br />
+教会他怎样管理自己更有效。<br />
+帮助有注意缺陷的孩子管理他写好的作业。<br />
+允许ADD ADHD孩子在阅读时用铅笔或手指指着念。当他写英文单词时可以允许他用手指帮助给词之间分格。<br />
+在做数学作业时，在纸上划格对于帮助他管理他的数字是很有帮助的。一张可以看见的日间主要任务单是有助于注意缺陷的孩子对需要高度注意力的项目有个思想准备。<br />
+把太长的作业分割成一系列更小的部分让ADD孩子一部分一部分完成。这样做不仅孩子不至于一看到作业就吓倒而且做完所有作业所用的时间要少的多。<br />
+（一）ADHD Student Organization TipsADHD 孩子的管理指导<br />
+考虑让ADD ADHD孩子每两个或三个问题的回答，而不要一个一个回答。要求他总结概念的精华。<br />
+强调“每一个字词的书写完成才能促成作业完成”的观念方法，以减低ADD ADHD孩子写作业时的沮丧感。<br />
+建立教室管理方式和你解决混乱的方案。<br />
+建立教室活动惯例，例举你每天花5分钟管理这些孩子的课桌、课业等等价值。通过“课桌日记”对管理的最好的课桌给予自己每天的奖励来加强管理<br />
+如有必要，使用个人作业表让孩子带回家以便家长监督。<br />
+给孩子一个严格的管理方法保障作业不乱，方法是用一个夹子放已经做完的作业，用另一个夹子放还没有做的作业。<br />
+可以在你的班级里使用彩色编码的方法，也就是每门功课对应一种相应的色彩，用该种色彩给这门功课的课本、作业夹、作业本做封皮。<br />
+建立一种对完成在校作业和家庭作业的奖励机制。举个例子，通过将作业的质量和数量的评分转化成“硬币”，这些硬币可以在某个数目时自动兑换某种奖励，这样做的目的是加强作业的质量和数量。对于ADD ADHD的孩子来说他们需要更加及时的加强，每完成一次作业就应该让他们赢得一张写有他们自己名字的“彩票”。奖品和特权可以在一天或一周的累计得分上给予奖赏。<br />
+每天都在黑板上写下任务计划和要求完成的期限。<br />
+每天布置作业时都要强调完成期限。<br />
+把长的作业分成几部分对每部分的完成也给出期限。<br />
+给ADD ADHD的孩子一张作业检查单或每门功课给一张，上面应给出完成作业的步骤以及检查的方法和步骤。<br />
+在ADD ADHD孩子的课桌或书包里可能存在“作业的黑洞”。我们常常见到注意缺陷的孩子花了很多时间来完成作业，但却只因为忘在了书桌或书包的一角而交不上作业。一定要提醒他们注意交作业。这似乎有些不可思议但的确是事实。这些孩子很可能已经完成了作业，但只是没有留意交作业的时间而忘记上交。<br />
+这里有另种对付作业黑洞的策略就是“书包法”。准备一个大信封，必须是大的。就是商业中用来做部门间投递用的那种。将它帮在孩子的书包内告知孩子的老师你将会把作业放在里面，并签了字。到校后老师拿出作业并签收。这样可以大大减少孩子不交作业的几率。你曾花费大量的时间督促孩子完成作业，现在再做这一步就可以真正让孩子交上作业。<br />
+给你让孩子学习的内容列出总结或提纲，或者让孩子自己写出来，但一定要保证正确。<br />
+必须清楚什么时候孩子可以自由活动什么时候不行。<br />
+应该鼓励ADD ADHD的孩子使用作业记录单，每天按不同科目记录。让他或老师在每个任务完成后做个标记。<br />
+每天结束时安排一个专门的时间对作业、课本及其他相关材料做个整理并对一天的计划有个了结，这样做对发展“执行过程能力”是有帮助的。<br />
+现在有一部分ADD ADHD的孩子在放学回家后服用小剂量的药物帮助完成作业。与医生咨询药物最佳药效的时间段，以便制定出最合理的家庭学习计划。<br />
+对于ADD ADHD的孩子最好在家中另备一套教材以避免因为孩子忘带回书本造成的不良后果。最好让ADD ADHD孩子保持至少一周收拾书桌一次的规律。当然他可能需要来自老师、伙伴或家长的帮助。<br />
+ADHD的小孩子需要：对适当的事物在适当的时间保持注意直到任务完成。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a href="${home}/adhd/teacherandadhd/reasons"> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>
+  </util:panel>
+</div>

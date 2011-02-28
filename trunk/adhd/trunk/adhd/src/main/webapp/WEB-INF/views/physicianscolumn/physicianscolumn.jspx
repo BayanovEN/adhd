@@ -1,0 +1,11 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="physicianscolumn_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>医师专栏</h1></center>
+   <h2>ADHD文献</h2>
+   <h2>ADHD与DN：CAS和PREP文献</h2>
+  </util:panel>
+</div>

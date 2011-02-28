@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="parentsandadhd/easilybored">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/easilybored.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/homeworkandtips">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/homeworkandtips.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/moresuggestions">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/moresuggestions.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/littlesuggestions">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/littlesuggestions.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/increasingtime">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/increasingtime.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/managebehaviors">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/managebehaviors.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/improvesocialskills">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/improvesocialskills.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/reasons">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/reasons.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/improveperformance">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/improveperformance.jspx"/>
+    </definition>
+    <definition extends="default" name="parentsandadhd/concentration">
+        <put-attribute name="body" value="/WEB-INF/views/parentsandadhd/concentration.jspx"/>
+    </definition>
+</tiles-definitions>

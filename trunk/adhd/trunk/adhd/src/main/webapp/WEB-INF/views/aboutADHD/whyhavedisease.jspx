@@ -1,0 +1,27 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="whatisadhd_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>为何会患 ADHD（多动症）</h1></center>
+    <p>
+     在产生ADHD的原因方面，目前有各种不同的假设。但其根源来自神经及化学性的解释占了大部分。除此之外，亦有解剖学、遗传性、环境性等相互作用的复杂性。因此家长不应该有「我的小孩患了ADHD是我的错」之类的想法。这是非常重要的观念。
+     <br />
+      <h2>1) 神经及化学性因素</h2>
+  人的脑中有主管学习、自我抑制、产生动机等的网状活化系统RAS（reticular activating system）；而在网状活化系统RAS内，有主管注意力的多巴胺（Dopamine）、正肾上腺素等神经传导的物质。专家认为，当缺乏这些物质或这些物质有异常时，即会诱发ADHD。在ADHD发病的相关研究中，目前亦持续提出除了多巴胺与正肾上腺素外的神经传导物质，如色胺酸（serotonine）等亦与ADHD发病有关。所以要有前述的神经及化学性因素才会引起ADHD，更重要的是，由于ADHD是一种疾病，需要接受具体的诊断和治疗，千万不要单纯地认为ADHD是因为孩子天生的个性或周遭环境所引起的。
+     <br />
+     <h2> 2). 遗传性因素</h2>
+  在许多ADHD基因研究中发现，ADHD儿童的父母或其兄弟姊妹中，有30%的比例也有注意力缺失的问题。但是目前并没有很具体的下结论表示，ADHD会单纯地因某种遗传性而引起，只是认为其因素会与家人有关。
+    <br />
+      <h2>3). 环境因素</h2>
+  A亦有报告指出，怀孕时胎儿的状态亦与注意力缺失有关。换句话说，ADHD的罹患率会受到怀孕时期孕妇的营养不良、吸烟、过多的压力、感染等因素的影响。同时，早产儿或难产时头部受损等因素，也可能成为引起ADHD的因素。但这并不代表这样的环境因素就一定能引起ADHD。专家认为，过去所认为的“过度看电视”、“铅中毒”、“高压电流地区的辐射暴露”、“日光灯暴露”、“电动玩具”、“过敏”等也会引起ADHD的说法，是毫无医学根据的。另外，其它说法像是缺乏维他命，摄取过多的食物添加物、盐腌制的食物、精致砂糖等，会造成过动的说法，在科学方面并没有确实的证据。
+   <br />
+     <h2> 4). 解剖学原因</h2>
+  大部分的学者认为注意力缺失为先天性，或可能是神经及化学性原因所造成的现象。通常ADHD儿童脑部的基本构造在外观上并无异常，但在脑功能方面可发现细微的功能障碍。以正常儿童为例，在胎儿期以及出生后的1年间，他们的脑部会持续成长，而在其发展过程中，会适当的形成与结合神经细胞。但是，也有可能因孕妇吸烟、饮酒、滥用药物等各种原因，无法正常形成上述的脑部功能。以平均值而言，ADHD儿童的前额叶（Frontal lobe）比正常的儿童小10%，且大脑 Anterior superior与 Anterior inferior的容积也比正常的儿童小10%左右。
+      <br /> 
+      根据美国疾病控制及防御中心(CDC)的研究，ADHD其实只是多种精神失调的合称。因此，要正确诊断这一病症，不能依靠单一测试去确定，而必须同时采用多种测试配合去确认。
+      <br />   
+    </p>    
+  </util:panel>
+</div>

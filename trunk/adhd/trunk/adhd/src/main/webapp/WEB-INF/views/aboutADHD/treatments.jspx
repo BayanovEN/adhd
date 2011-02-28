@@ -1,0 +1,23 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="treatments_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>ADHD的治疗方案包括哪些？</h1></center>
+    <p>
+     <h3>根据中国和美国的儿童注意缺陷多动障碍防治指南，ADHD的治疗方案包括两个方面：1.药物治疗；2.认知行为训练。</h3><br />
+
+<h3>如何选择ADHD治疗方案？</h3>
+	存在较严重的注意缺陷多动障碍（ADHD）症状的儿童需要药物治疗+认知行为治疗。<br />
+	对于注意缺陷多动障碍（ADHD）症状较轻的儿童，首选药物或认知行为治疗均可，主要取决于个体情况。如果首选治疗方式不起作用，应考虑更换另外一种。<br /><br />
+<h3>在中国，ADHD有哪些可靠的治疗药物？</h3>
+	哌甲酯治疗<br />
+	盐酸托莫西丁<br /><br />
+
+<h3>认知行为治疗包括哪些治疗方案</h3>
+	认知神经功能训练：对改善ADHD儿童的神经反应能力有效。ADHD归根到底是一种神经病学疾病，因此有着明确的神经反应缺陷。神经生理训练可以有针对性的、循序渐进的切实改善这种神经反应缺陷。具体效果的可反应在儿童对目标刺激反应的正确率越来越高、疏漏越来越少、反应在正确的前提下越来越快。因此，神经生理训练对改善ADHD儿童学业反应的高错误是很有帮助的。儿童认知神经功能训练目前在世界上有理论支持和研究证明较为有效的方案是基于PASS理论的阅读增强方案（PASS Reading Enhancement Program, PREP），其可以用于矫正儿童的选择性注意缺陷及阅读困难[13]。该训练方案与Das—Naglieri认知评估系统（Cognitive Assessment System,简称DN：CAS）配套应用，DN：CAS是对儿童认知功能的评估工具。<br />
+	日常行为训练：通过对孩子日常社会行为进行规范化训练的方案，一般融入儿童的社会行为生活中有家长和老师完成。对改善儿童行为有明显作用。主要体现在自我管理、时间管理、学校及家庭行为控制等方面。行为治疗是ADHD的必要治疗措施。如果单纯的药物治疗很可能随着停药效果就消失了，但如果同步配合行为学治疗就会在停药后保持某些有效的行为特点。<br />
+</p>    
+  </util:panel>
+</div>

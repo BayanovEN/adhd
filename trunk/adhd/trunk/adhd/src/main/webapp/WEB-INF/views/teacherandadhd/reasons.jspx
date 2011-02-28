@@ -1,0 +1,39 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="reasons_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>教师与ADHD</h1></center>
+   <center><h2>11、有几种ADHD孩子在小学教室中不服从的理由</h2></center>
+    <p>
+他们对你的指令没留意-跑神。<br />
+他们不理会你而在做更有趣的事。<br />
+他们故意在反抗。<br />
+倾听孩子的讲述。他们也期望被倾听。<br />
+给孩子提供安全的环境。让孩子知道你是他的朋友你会帮助他，尊重他。<br />
+千万不要在他的伙伴面前藐视他。他和他的伙伴都知道他有些不一样，如果老师藐视孩子那么其他的孩子就会象得到老师允许一样也藐视他。孩子们就都会很残酷。<br />
+知道大事情和小事情之间的差别，也不要在小事上侮辱他。对这些孩子让他们事事控制自己是很困难的。<br />
+要对他们需要的活动警觉。要允许他们多玩了一会儿，允许他们偶尔在你规定的区域外玩。<br />
+帮助孩子发现他们有优势的一面，这样他才能建立自己的自尊体系。<br />
+把口头激励与奖励结合起来很重要。这有助于从物化的奖励中断奶而转向内化的自我体系。<br />
+一个简单的点头、眨眼、微笑或拍拍他们的肩膀是很有力的激励。<br />
+</p>    
+ <center><p>
+<a href="${home}/adhd/teacherandadhd/teacherandadhd"> 1 </a>|
+<a href="${home}/adhd/teacherandadhd/adhdclass"> 2 </a>|
+<a href="${home}/adhd/teacherandadhd/easilybored"> 3 </a>|
+<a href="${home}/adhd/teacherandadhd/homeworkandtips"> 4 </a>|
+<a href="${home}/adhd/teacherandadhd/moresuggestions"> 5 </a>|
+<a href="${home}/adhd/teacherandadhd/littlesuggestions"> 6 </a>|
+<a href="${home}/adhd/teacherandadhd/increasingtime"> 7 </a>|
+<a href="${home}/adhd/teacherandadhd/managebehaviors"> 8 </a>|
+<a href="${home}/adhd/teacherandadhd/improvesocialskills"> 9 </a>|
+<a href="${home}/adhd/teacherandadhd/socialskills"> 10 </a>|
+<a> 11 </a>|
+<a href="${home}/adhd/teacherandadhd/obedientmethod"> 12 </a>|
+<a href="${home}/adhd/teacherandadhd/improveperformance"> 13 </a>|
+<a href="${home}/adhd/teacherandadhd/concentration"> 14 </a>
+</p></center>
+  </util:panel>
+</div>

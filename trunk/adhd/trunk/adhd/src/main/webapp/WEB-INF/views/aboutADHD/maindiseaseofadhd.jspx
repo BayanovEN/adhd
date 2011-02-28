@@ -1,0 +1,34 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="maindiseaseofadhd_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <h1>ADHD的主要病征是：</h1>
+    <p>
+    以下是以“注意力”为主的特征：<br />
+　　1.常常无法注意细节，在功课上、工作上或是其它活动会粗心犯错； <br />
+　　2.做事或活动很难维持专注力； <br />
+　　3.别人跟他说话时，经常表现出没有在听的样子； <br />
+　　4.常常很难依照指示完成事情，无法完成功课、家务或工作（不是因为相反的行为或是无 法了解指示）； <br />
+　　5.经常对组织性的工作或规划活动感到困难； <br />
+　　6.经常逃避或厌恶需要花费心思的活动或工作； <br />
+　　7.常常忘东忘西（如书本或工作需要的东西）；<br /> 
+　　8.很容易被干扰； <br />
+　　9.常常忘记每天规律要做的事情。 <br />
+以下是以“过动”为主的特征：<br />
+　　1.坐着时经常觉得会局促不安，玩手或玩脚，或是不断扭动身体； <br />
+　　2.在需要坐着的状况下常常会站起来，或课堂中离开椅子； <br />
+　　3.在不适当的场合下，会到处乱跑或过度活跃（若是青少年或成人，则是觉得坐立不安）； <br />
+    4.很难安静地玩乐或工作；<br /> 
+　　5.总是静不下来，永远都在进行一些事，或是动个不停； <br />
+　　6.极度爱讲话。 <br />
+以下是以“冲动”为主的特征：<br />
+　　1. 别人问题未问完，就急着说出答案； <br />
+　　2. 无法等待轮到他； <br />
+	3. 常常在不适当的状况下打断事情/对话的进行。<br />
+有ADHD的孩子，其表现通常有注意力不集中、无法抑制自己的冲动以及坐立不安的情况。在大人，主要问题则常在于ADHD患者无法计划好他们的生活与每日简单的工作，因此注意力不集中与坐立不安的情况常是次要的问题。美国疾病管制局强调诊断ADHD必须由受过专业训练的医疗提供者才可，否则容易被误诊与处方，这是相当危险的。
+   <br />
+    </p>    
+  </util:panel>
+</div>

@@ -1,0 +1,38 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" />
+  <spring:message var="title" code="easilybored_titlepane" arguments="${app_name}" />
+  <util:panel id="title" title="${title}">   
+   <center><h1>父母与ADHD</h1></center>
+   <center><h2>1、ADHD 孩子容易厌烦</h2></center>
+    <p>
+有注意缺陷的孩子对他们发现有刺激并有魅力的环境反应要好的多。不断变换教授方式、传媒和节奏有助于延长他们的兴趣。<br />
+小学年龄阶段的ADHD孩子一般都认为需要动手的课程比较有魅力。<br />
+将需要保持注意力的任务与更活跃的学习方式相结合并保持两者的和谐是能够提高他们的成绩的。<br />
+试着运用合作学习活动，尤其是那种在小组中每个孩子都被分配了特定的角色，而且必须与小组其他成员分享自己的那部分信息的学习小组。<br />
+发展学习站并明确孩子从一个中心向另一个中心转移时的信号和程序。<br />
+借助游戏般的活动，例如“在词典中找寻有用的动西”的活动可以用来教会孩子正确使用索引或源头性的材料。<br />
+经常与注意缺陷的孩子保持口头和物理性的联系。在讲课时提及ADD、ADHD 孩子的名字。以便条的形式给这些孩子写下课程中的关键要素。让孩子们成对的互相检查作业。<br />
+为ADD、ADHD孩子提供专门辅导，帮助他们复习概念。让ADHD孩子与旗鼓相当的伙伴分享最近学会的概念。<br />
+当在黑板上呈现了大量信息后，要注意用彩色粉笔强调信息中的关键词语。<br />
+改变指导者声音的高低快慢也可以增加指导过程中ADHD孩子的注意力。<br />
+保证你那些ADHD小孩子在接受指令或指导时与你有目光接触。这会加强他的理解及能保证他跟上任务的节奏。<br />
+如果一次给予一个指令的话你的ADD ADHD会更容易成功执行。当一次给予一系列指令时，对第一个指令的保持对他们是很困难的。对口头的指令最好结合生动贴切的他们喜爱的活动来解释。<br />
+使用多种模式的指导可以增加成功学习任务的可能性。<br />
+在给予ADHD的孩子指令后，让他复述老师刚才说的内容。这样做可以提高他的记忆和理解，并能够检查他是否记住并理解刚才所听到的内容。<br />
+</p>   
+  <center><p>
+<a> 1 </a>|
+<a href="${home}/adhd/parentsandadhd/homeworkandtips"> 2 </a>|
+<a href="${home}/adhd/parentsandadhd/moresuggestions"> 3 </a>|
+<a href="${home}/adhd/parentsandadhd/littlesuggestions"> 4 </a>|
+<a href="${home}/adhd/parentsandadhd/increasingtime"> 5 </a>|
+<a href="${home}/adhd/parentsandadhd/managebehaviors"> 6 </a>|
+<a href="${home}/adhd/parentsandadhd/improvesocialskills"> 7 </a>|
+<a href="${home}/adhd/parentsandadhd/reasons"> 8 </a>|
+<a href="${home}/adhd/parentsandadhd/improveperformance"> 9 </a>|
+<a href="${home}/adhd/parentsandadhd/concentration"> 10 </a>
+</p></center>
+  </util:panel>
+</div>
