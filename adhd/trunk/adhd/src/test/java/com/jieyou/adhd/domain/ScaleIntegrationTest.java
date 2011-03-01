@@ -94,6 +94,7 @@ public class ScaleIntegrationTest {
     public void testPersist() {
         org.junit.Assert.assertNotNull("Data on demand for 'Scale' failed to initialize correctly", dod.getRandomScale());
         com.jieyou.adhd.domain.Scale obj = dod.getNewTransientScale(Integer.MAX_VALUE);
+        obj.setDescription("更改:");
         org.junit.Assert.assertNotNull("Data on demand for 'Scale' failed to provide a new transient entity", obj);
         org.junit.Assert.assertNull("Expected 'Scale' identifier to be null", obj.getId());
         obj.persist();
