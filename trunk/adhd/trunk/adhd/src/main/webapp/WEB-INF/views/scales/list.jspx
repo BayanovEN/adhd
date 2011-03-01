@@ -3,7 +3,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_com_jieyou_adhd_domain_Scale" items="${scales}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
-        <table:table data="${scales}" id="l_com_jieyou_adhd_domain_Scale" path="/scales" z="Dl4MbbTDZNTIKSUZnWXH4dfBzcg=">
+        <table:table data="${scales}" id="l_com_jieyou_adhd_domain_Scale" path="/scales" link="test" z="Dl4MbbTDZNTIKSUZnWXH4dfBzcg=">
             <table:column id="c_com_jieyou_adhd_domain_Scale_scaleName" property="scaleName" z="CNPmgMasBNguzNFEtxNRiPZX8cw="/>
             <table:column id="c_com_jieyou_adhd_domain_Scale_scaleType" property="scaleType" z="UnZSyD7QbW/4h8Ui8f0fgm6csKE="/>
             <table:column id="c_com_jieyou_adhd_domain_Scale_description" property="description" z="aUVFE6V2V99gaiqDL5YzfAWXWuc="/>
