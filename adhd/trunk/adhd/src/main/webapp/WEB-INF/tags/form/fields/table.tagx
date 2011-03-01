@@ -5,6 +5,7 @@
   <jsp:directive.attribute name="id" type="java.lang.String" required="true" description="The identifier for this tag (do not change!)" />
   <jsp:directive.attribute name="data" type="java.util.Collection" required="true" description="The collection to be displayed in the table" />
   <jsp:directive.attribute name="path" type="java.lang.String" required="true" description="Specify the URL path" />
+  <jsp:directive.attribute name="link" type="java.lang.String" required="true" description="Specify the URL link " />
   <jsp:directive.attribute name="typeIdFieldName" type="java.lang.String" required="false" description="The identifier field name for the type (defaults to 'id')" />
   <jsp:directive.attribute name="create" type="java.lang.Boolean" required="false" description="Include 'create' link into table (default true)" />
   <jsp:directive.attribute name="update" type="java.lang.Boolean" required="false" description="Include 'update' link into table (default true)" />
@@ -84,6 +85,18 @@
               <spring:url value="/resources/images/update.png" var="update_image_url" />
               <spring:message arguments="${typeName}" code="entity_update" var="update_label" />
               <a href="${fn:escapeXml(update_form_url)}" alt="${fn:escapeXml(update_label)}" title="${fn:escapeXml(update_label)}">
+                <img alt="${fn:escapeXml(update_label)}" class="image" src="${fn:escapeXml(update_image_url)}" title="${fn:escapeXml(update_label)}" />
+              </a>
+            </td>
+          </c:if>
+          <c:if test="${! empty link}">
+            <td>
+              <spring:url value="${path}/${item[typeIdFieldName]}" var="link_url">
+                <spring:param name="${link }" />
+              </spring:url>
+              <spring:url value="/resources/images/update.png" var="update_image_url" />
+              <spring:message arguments="${typeName}" code="entity_update" var="update_label" />
+              <a href="${fn:escapeXml(link_url)}" alt="${fn:escapeXml(update_label)}" title="${fn:escapeXml(update_label)}">
                 <img alt="${fn:escapeXml(update_label)}" class="image" src="${fn:escapeXml(update_image_url)}" title="${fn:escapeXml(update_label)}" />
               </a>
             </td>

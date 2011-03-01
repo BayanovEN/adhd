@@ -49,6 +49,12 @@ public class ScaleController {
         model.addAttribute("itemId", id);
         return "scales/show";
     }
+	@RequestMapping(value = "/{id}",params = "test", method = RequestMethod.GET)
+	public String test(@PathVariable("id") Long id, Model model) {
+		model.addAttribute("scale", Scale.findScale(id));
+		model.addAttribute("itemId", id);
+		return "scales/test";
+	}
 
 	@RequestMapping(method = RequestMethod.GET)
     public String list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model model) {
