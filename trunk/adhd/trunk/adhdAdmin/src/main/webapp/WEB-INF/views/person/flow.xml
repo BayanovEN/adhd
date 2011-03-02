@@ -45,7 +45,7 @@
         <transition on="cancel" to="cancel" bind="false">
             <evaluate expression="personDao.findPersons()" result="flowScope.persons" />
         </transition>
-    </view-state>
+    </view-state >
 
     <subflow-state id="address" subflow="views/address"> 
         <input name="id" value="addressId"/>
@@ -61,7 +61,7 @@
         <transition on="cancelAddress" to="personForm" />
     </subflow-state>
     
-    <end-state id="personConfirmed" />
+    <end-state id="personConfirmed" commit="true" />
 
     <end-state id="cancel" />
     
