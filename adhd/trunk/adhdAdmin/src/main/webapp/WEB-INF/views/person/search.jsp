@@ -14,12 +14,12 @@
     <tr>
         <c:set var="personFormId" value="person${status.index}"/>
 
-        <c:url var="editUrl" value="/person.html">
+        <c:url var="editUrl" value="/views/person">
             <c:param name="id" value="${person.id}" />
         </c:url>
         
         <sec:authorize ifAllGranted="ROLE_USER">
-            <c:url var="deleteUrl" value="/person/delete.html"/>
+            <c:url var="deleteUrl" value="/person/delete"/>
             <form id="${personFormId}" action="${deleteUrl}" method="POST">
                 <input id="id" name="id" type="hidden" value="${person.id}"/>
             </form>
