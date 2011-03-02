@@ -95,7 +95,16 @@ public class PersonDaoImpl implements PersonDao {
      */
     @Transactional(readOnly = false, propagation = Propagation.REQUIRES_NEW)
     public void delete(Person person) {
-        em.remove(em.merge(person));
+    	
+
+        if (this.em.contains(person)) {
+            this.em.remove(person);
+        } else {
+        	Person attached = em.find(Person.class, person.getId());;
+            this.em.remove(attached);
+        }
+    
+//        em.remove(em.merge(person));
     }
 
     /**
