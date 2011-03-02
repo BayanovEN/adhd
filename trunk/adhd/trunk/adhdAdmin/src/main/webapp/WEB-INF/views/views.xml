@@ -2,20 +2,40 @@
 <!DOCTYPE tiles-definitions PUBLIC
 	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
 	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
-	
+
 <tiles-definitions>
-	
+	<definition name="intro" extends="standardLayout">
+		<put-attribute name="body" value="/WEB-INF/intro.jsp" />
+	</definition>
+
+	<definition name="login" extends="standardLayout">
+		<put-attribute name="body" value="/WEB-INF/login.jsp" />
+	</definition>
+
+	<definition name="logoutSuccess" extends="standardLayout">
+		<put-attribute name="body" value="/WEB-INF/logoutSuccess.jsp" />
+	</definition>
+
 	<definition name="hotels/search" extends="standardLayout">
 		<put-attribute name="body">
-			<definition template="/WEB-INF/views/search.jsp">
-				<put-attribute name="searchForm" value="/WEB-INF/views/searchForm.jsp" />
-				<put-attribute name="bookingsTable" value="/WEB-INF/views/bookingsTable.jsp" />
+			<definition template="/WEB-INF/views/booking/search.jsp">
+				<put-attribute name="searchForm"
+					value="/WEB-INF/views/booking/searchForm.jsp" />
+				<put-attribute name="bookingsTable"
+					value="/WEB-INF/views/booking/bookingsTable.jsp" />
 			</definition>
 		</put-attribute>
 	</definition>
 
 	<definition name="hotels/*" extends="standardLayout">
-		<put-attribute name="body" value="/WEB-INF/views/{1}.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/booking/{1}.jsp" />
 	</definition>
 
+    <definition extends="standardLayout" name="person/*">
+        <put-attribute name="body" value="/WEB-INF/views/person/{1}.jsp"/>
+    </definition>
+    
+    <definition extends="standardLayout" name="address/*">
+        <put-attribute name="body" value="/WEB-INF/views/address/{1}.jsp"/>
+    </definition>
 </tiles-definitions>

@@ -1,8 +1,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <h1>Search Hotels</h1>
-
+ <th><fmt:message key="person.form.firstName"/></th>
 <c:url var="hotelsUrl" value="/hotels"/>
 <form:form modelAttribute="searchCriteria" action="${hotelsUrl}" method="get" cssClass="inline">
     <span class="errors span-18">
