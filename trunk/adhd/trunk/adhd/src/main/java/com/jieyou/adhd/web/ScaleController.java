@@ -42,7 +42,6 @@ public class ScaleController {
         model.addAttribute("scale", new Scale());
         return "scales/create";
     }
-
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String show(@PathVariable("id") Long id, Model model) {
         model.addAttribute("scale", Scale.findScale(id));

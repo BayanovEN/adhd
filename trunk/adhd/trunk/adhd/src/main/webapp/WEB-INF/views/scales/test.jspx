@@ -3,6 +3,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <h1>Hello</h1>
+    
     <page:show id="ps_com_jieyou_adhd_domain_Scale" object="${scale}" path="/scales" z="0QXif3/Ac89avXfnu+BYpsrL46E=">
         <field:display field="scaleName" id="s_com_jieyou_adhd_domain_Scale_scaleName" object="${scale}" z="6MkbYHMHDz995XRhqwYj4omKFlc="/>
         <field:display field="scaleType" id="s_com_jieyou_adhd_domain_Scale_scaleType" object="${scale}" z="mQWz6yOM7z+tPBJ0CRueuunxMQc="/>
