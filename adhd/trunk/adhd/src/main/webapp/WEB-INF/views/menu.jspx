@@ -55,6 +55,10 @@
         <menu:item id="i_physicianscolumn" messageCode="global_menu_physicianscolumn" url="/physicianscolumn/physicianscolumn" z="eHyDkV13JqoEpS"/>
         </menu:category>
         
+     <menu:category id="c_guide" z="vvWXWZKWPd">
+        <menu:item id="i_guide" messageCode="global_menu_guide" url="/guide" z="eHyDkV13JqoEpS"/>
+        </menu:category>
+        
     <menu:category id="c_aboutus" z="vvWXWZKWPd">
         <menu:item id="i_aboutus" messageCode="global_menu_aboutus" url="/aboutus" z="eHyDkV13JqoEpS"/>
         </menu:category>
