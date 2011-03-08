@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+<div xmlns:form="http://www.springframework.org/tags/form" xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+     <h2>Radio button</h2>
+    <input dojoType="dijit.form.RadioButton" id="val1" name="group1" 
+          checked="checked" value="Programmer" type="radio" />
+    <label for="val1"> Programmer </label>
+    <input dojotype="dijit.form.RadioButton" id="val2"  name="group1" 
+            value="Designer" type="radio" />
+    <label for="val2"> Designer </label>
+    <input dojotype="dijit.form.RadioButton" id="val3"  name="group1" 
+                       value="Developer" type="radio" />
+    <label for="val3"> Developer </label> 
     <h1>Hello</h1>
     <c:forEach items="${scale.answers}" var="item">
     <c:out value="${item.id}" />
@@ -22,7 +32,10 @@
               <c:out value="${answer.answerDescription}" />
             </th>
           </c:forEach>
-          
+          <tr>
+    
+    <td></td>
+</tr>
         </tr>
       </thead>
     </c:if>
