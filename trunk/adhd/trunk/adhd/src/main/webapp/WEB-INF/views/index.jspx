@@ -5,12 +5,7 @@
   <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">
     <center>
-    <h1><spring:message code="welcome_h3" arguments="${app_name}" /></h1>
-    <img src="./images/motherandchild.png" width="204" height="304" />
-    <h2>注意缺陷多动障碍(ADHD)不是传说，是事实！</h2>
+    <img src="./images/bodylogo.png"/>
     </center>
-         
-    <h4>注意力缺失过动症（Attention Deficit Hyperactivity Disorder， ADHD）首次在20世纪初被讨论。1902年，由一位对孩童疾病有兴趣的乔治史提尔（George Still）医生在伦敦发表了相关文章。他发现一些孩子似乎停不下来，情绪容易起伏，常常惹麻烦。ADHD的主要特征是不专注、过动和冲动，但这些症状多会造成他们很难遵守规则行为或者维持固定的表现。史提尔医生认为这些儿童“对于动作控制有不正常之处。”他写了一篇以此为主题的文章并发表在英国医学期刊上。美国 The Diagnostic and Statistical Manual,（简称DSM）在1980年对于过动症作了第一次的描述，并将它称之为“儿童期的过动反应异常。”之后相关学者经过多次修改后，“注意力缺陷过动症”这个名词终于产生，而它的症状以及诊断的规范也越来越明朗。第四版最新的疾病诊断手册（DSM-Ⅳ）把ADHD分成三种不同的类型：分别有“注意力缺失”、“过动”、“注意力缺陷合并过动”。</h4>
-    
   </util:panel>
 </div>
