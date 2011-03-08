@@ -6,13 +6,37 @@
     <c:forEach items="${scale.answers}" var="item">
     <c:out value="${item.id}" />
     </c:forEach>
+     <page:list id="pl_com_jieyou_adhd_domain_Scale" items="${scale.questions}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
+        
+    <table>
+     <c:set var="currentDescription" value="‘’" />
+    <c:forEach items="${scale.questions}" var="question">
+      <c:if test="${question.sectionDescription!=currentDescription}">
+      <thead>
+        <tr>
+          <th>
+              <c:out value="${question.sectionDescription}" />
+            </th>
+          <c:forEach items="${scale.answers}" var="answer">
+            <th>
+              <c:out value="${answer.answerDescription}" />
+            </th>
+          </c:forEach>
+          
+        </tr>
+      </thead>
+    </c:if>
+    <tr><td><c:out value="${question.questionContent}" /></td>
+           <c:forEach items="${scale.answers}" var="answer">
+            <th>
+              <c:out value="${answer.score}" />
+            </th>
+          </c:forEach>
+    </tr>
     
-    <page:show id="ps_com_jieyou_adhd_domain_Scale" object="${scale}" path="/scales" z="0QXif3/Ac89avXfnu+BYpsrL46E=">
-        <field:display field="scaleName" id="s_com_jieyou_adhd_domain_Scale_scaleName" object="${scale}" z="6MkbYHMHDz995XRhqwYj4omKFlc="/>
-        <field:display field="scaleType" id="s_com_jieyou_adhd_domain_Scale_scaleType" object="${scale}" z="mQWz6yOM7z+tPBJ0CRueuunxMQc="/>
-        <field:display field="description" id="s_com_jieyou_adhd_domain_Scale_description" object="${scale}" z="0WXj0wLxKm/ZExAJy1lyk4JKMyI="/>
-        <field:display field="questions" id="s_com_jieyou_adhd_domain_Scale_questions" object="${scale}" z="628MquJC5p6qtrRYS+D+Tiwg9wI="/>
-        <field:display field="answers" id="s_com_jieyou_adhd_domain_Scale_answers" object="${scale}" z="MNpT76HXD/axk6pqbfP7x3czp54="/>
-        <field:display field="records" id="s_com_jieyou_adhd_domain_Scale_records" object="${scale}" z="uV58X490uwIxc8/ZPX7HecywMGg="/>
-    </page:show>
+      <c:set var="currentDescription" value="${question.sectionDescription}" />
+    </c:forEach>
+    </table>
+    </page:list>
+   
 </div>
