@@ -1,13 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <div xmlns:form="http://www.springframework.org/tags/form"
+xmlns:form1="urn:jsptagdir:/WEB-INF/tags/form"
 	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
-	<h1>Hello</h1>
+<script type="text/javascript">
 
+function formSubmit(formid, msgboxid){
+
+ dojo.xhrPost({
+
+  form: formid,
+
+  handleAs: "text",
+
+  handle: function(data,args){
+
+   if(typeof data == "error"){
+
+    console.warn("error!",args);
+
+   }else{
+
+    // show server response in the firebug console
+
+    console.log(data);
+
+   }
+
+   dojo.byId(msgboxid).innerHTML = data;
+
+  }
+
+ });
+
+};
+function getAnswer(formid){
+	
+	var n = dojo.byId("test"); 
+	n.value="linyuan";
+	 dojo.attr('_answers_id', {
+         value: "1"
+     });
+	var elements= dojo.query('input:checked', formid);
+	
+	var values=[];
+	dojo.forEach(
+			elements,
+			  function(node, index, array) {
+				values.push( dojo.attr(node, "value") );
+			  }
+			);
+	elements=dojo.query("input[name*='question']"); 
+	elements= dojo.query("[name^=question]"); 
+
+  result=values.join('');
+	 dojo.attr('_answers_id', {
+         value: result
+     });
+	 formSubmit(record, main);
+	return false;
+ 
+};
+
+</script>
+
+	<h1>Hello</h1>
+<div id="fsettingsmsgbox"></div>
+
+<form method="post" action="settings/update" id="fsettings">
+
+<input id="test" type="text" name="lastname" value="test"/>
+
+<input type="button" value="Save settings" onclick="formSubmit('fsettings', 'fsettingsmsgbox');" />
+
+</form>
+
+  <form1:create id="fc_com_jieyou_adhd_domain_Record" modelAttribute="record" path="/records" render="${empty dependencies}" z="DY/o+N6LhF8REId41K4J6Pg7mAw=">
+        <field:select field="scale" id="c_com_jieyou_adhd_domain_Record_scale" itemValue="id" items="${scales}" path="/scales" required="true" z="tzcqyieC+8+2DtUDFpsLI3QOV+o="/>
+        <field:input field="patientId" id="c_com_jieyou_adhd_domain_Record_patientId" required="true" z="tPuv8lTLN5WIduZgVmLaQG/vlgo="/>
+        <field:input field="answers" id="c_com_jieyou_adhd_domain_Record_answers" required="true" z="0MxmphzqjkwcZ3N71Iulbh70LRo="/>
+        <field:datetime dateTimePattern="${record_doneday_date_format}" field="doneDay" id="c_com_jieyou_adhd_domain_Record_doneDay" required="true" z="TVJtsHEf9HZj6Thl+3d9zI8at2o="/>
+        <field:checkbox field="isFinished" id="c_com_jieyou_adhd_domain_Record_isFinished" z="Eb1Vl2Nsk8X2MtgxSAVwngA37X0="/>
+    </form1:create>
+    <form1:dependency dependencies="${dependencies}" id="d_com_jieyou_adhd_domain_Record" render="${not empty dependencies}" z="Md7ax8nxyYKfvbG2zgMoCAoWceo="/>
 	<page:list id="pl_com_jieyou_adhd_domain_Scale"
 		items="${scale.questions}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
 		<form id="myform">
@@ -51,8 +130,9 @@
 			</table>
 		</form>
 		<button
-			onclick="with(dojo.byId('myform'))with(elements[0])with(elements[checked?0:1])alert(name+'='+value);return false">Show
+			onclick="getAnswer(myform)">Show
 			form submit value</button>
+			
 	</page:list>
 
 </div>
