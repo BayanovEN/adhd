@@ -16,4 +16,9 @@
 	<definition extends="default" name="scales/test">
 		<put-attribute name="body" value="/WEB-INF/views/scales/test.jspx" />
 	</definition>
+	
+	<definition extends="page" name="page/test">
+		<put-attribute name="body" value="/WEB-INF/views/scales/showRecord.jspx" />
+	</definition>
+	
 </tiles-definitions>

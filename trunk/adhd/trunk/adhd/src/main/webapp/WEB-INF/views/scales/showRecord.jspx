@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_jieyou_adhd_domain_Record" object="${record}" path="/records" z="WdknDktE1jlloSCk3k1SLW++TfU=">
+        <field:display field="scale" id="s_com_jieyou_adhd_domain_Record_scale" object="${record}" z="Qrnmv6MCCRiIUUrEuUFmRdzCLHA="/>
+        <field:display field="patientId" id="s_com_jieyou_adhd_domain_Record_patientId" object="${record}" z="8o4l7ykgD0TUjK0orNZrQBnUoZo="/>
+        <field:display field="answers" id="s_com_jieyou_adhd_domain_Record_answers" object="${record}" z="qyxqp6tfmcs88Av41rBXmLCeEbA="/>
+        <field:display date="true" dateTimePattern="${record_doneday_date_format}" field="doneDay" id="s_com_jieyou_adhd_domain_Record_doneDay" object="${record}" z="f1oIk1nu0SGOsj8zCQQkZEk0ki4="/>
+        <field:display field="isFinished" id="s_com_jieyou_adhd_domain_Record_isFinished" object="${record}" z="xDbifRbDt+c2P/jX/FNhuHAeS2U="/>
+    </page:show>
+</div>
