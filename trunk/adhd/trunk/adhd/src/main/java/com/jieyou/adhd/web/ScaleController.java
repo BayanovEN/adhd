@@ -6,10 +6,17 @@ import com.jieyou.adhd.domain.Record;
 import com.jieyou.adhd.domain.Scale;
 import com.jieyou.adhd.reference.ScaleType;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Date;
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+
+import org.joda.time.format.DateTimeFormat;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.roo.addon.web.mvc.controller.RooWebScaffold;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -50,10 +57,28 @@ public class ScaleController {
     }
 	@RequestMapping(value = "/{id}",params = "test", method = RequestMethod.GET)
 	public String test(@PathVariable("id") Long id, Model model) {
-		model.addAttribute("scale", Scale.findScale(id));
-		model.addAttribute("itemId", id);
-		return "scales/test";
+
+        Record record = new Record();
+        record.setPatientId("1");
+        record.setDoneDay(new Date());
+        record.setIsFinished(true);
+		model.addAttribute("record", record);
+        model.addAttribute("record_doneday_date_format", DateTimeFormat.patternForStyle("S-", LocaleContextHolder.getLocale()));
+        List dependencies = new ArrayList();
+        if (Scale.countScales() == 0) {
+            dependencies.add(new String[]{"scale", "scales"});
+        }
+        model.addAttribute("scale", Scale.findScale(id));
+        model.addAttribute("itemId", id);
+        model.addAttribute("dependencies", dependencies);
+        return "scales/test";
+	    
+		
 	}
+	@ModelAttribute("scales")
+    public Collection<Scale> populateScales() {
+        return Scale.findAllScales();
+    }
 
 	@RequestMapping(method = RequestMethod.GET)
     public String list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model model) {
