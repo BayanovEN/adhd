@@ -21,6 +21,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.CascadeType;
+import javax.persistence.OrderBy;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Version;
 import com.jieyou.adhd.domain.Answer;
@@ -45,6 +46,7 @@ public class Scale {
 
     @NotNull
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "scale")
+    @OrderBy("questionNo")
     private Set<Question> questions = new HashSet<Question>();
 
     @NotNull
