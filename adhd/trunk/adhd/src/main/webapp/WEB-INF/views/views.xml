@@ -27,5 +27,6 @@
 
 <definition extends="public" name="login">
         <put-attribute name="body" value="/WEB-INF/views/login.jspx"/>
-    </definition>
+</definition>
+
 </tiles-definitions>
