@@ -31,6 +31,7 @@ function getAnswer(formid){
     <form1:dependency dependencies="${dependencies}" id="d_com_jieyou_adhd_domain_Record" render="${not empty dependencies}" z="Md7ax8nxyYKfvbG2zgMoCAoWceo="/>
 	
 </div>
+<h1>问卷</h1>
 	<page:list id="pl_com_jieyou_adhd_domain_Scale"
 		items="${scale.questions}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
 		<form id="myform">

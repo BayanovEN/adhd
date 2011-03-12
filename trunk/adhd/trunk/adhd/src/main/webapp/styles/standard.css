@@ -36,7 +36,7 @@ body {
 	display:box;
 }
 
-#menu {         /*ÁÐ±í´ó±³¾°ÑÕÉ«*/
+#menu {         /*ï¿½Ð±ï¿½ó±³¾ï¿½ï¿½ï¿½É«*/
     background: #eee;
   	position:relative;
   	float:left;  	
@@ -64,14 +64,14 @@ body {
 }
 
 #menu h2 {               
-	color: #000;  /*ÁÐ±íÖ÷²Ëµ¥ÎÄ×Ö*/
-	background: #6dbee4;  /*ÁÐ±íÖ÷²Ëµ¥±³¾°*/
+	color: #000;  /*ï¿½Ð±ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½*/
+	background: #6dbee4;  /*ï¿½Ð±ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½*/
 	text-transform: uppercase;
 	font-weight:bold;
 	font-size: 12px;
 }
 
-#menu a {          /*ÁÐ±í³¬Á´½ÓÑÕÉ«*/
+#menu a {          /*ï¿½Ð±?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«*/
 	color: #222;
 	background: #efefef;
 	text-decoration: none;
@@ -365,3 +365,5 @@ fieldset th {
 	height: 11px;
 	width: 16px;
 }
+.red{color:#F00;}
+.black{color:#000000;}

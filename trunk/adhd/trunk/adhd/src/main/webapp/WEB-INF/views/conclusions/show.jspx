@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_jieyou_adhd_domain_Conclusion" object="${conclusion}" path="/conclusions" z="mJzzlnP53W1W6XhTeCa0q/mD9Rc=">
+        <field:display field="scale" id="s_com_jieyou_adhd_domain_Conclusion_scale" object="${conclusion}" z="Lvkw40N58G6gEW56rgpJbftZnxk="/>
+        <field:display field="lowerBound" id="s_com_jieyou_adhd_domain_Conclusion_lowerBound" object="${conclusion}" z="qhUfuJXlYZ30sT5FaU1BEDZieJQ="/>
+        <field:display field="upperLimit" id="s_com_jieyou_adhd_domain_Conclusion_upperLimit" object="${conclusion}" z="hrI/RDpnBt107frM3+Gu4k7rRMM="/>
+        <field:display field="conclusion" id="s_com_jieyou_adhd_domain_Conclusion_conclusion" object="${conclusion}" z="kOttG+S/9pCvbUq6lzw0XlyD/OU="/>
+    </page:show>
+</div>

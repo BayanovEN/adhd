@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_jieyou_adhd_domain_Conclusion" items="${conclusions}" z="sR7/fWIWW8Or3S+Qa75cDVYkqRM=">
+        <table:table data="${conclusions}" id="l_com_jieyou_adhd_domain_Conclusion" path="/conclusions" z="i+emKoJoVK4MZ9pVp/COwxki1Jo=">
+            <table:column id="c_com_jieyou_adhd_domain_Conclusion_scale" property="scale" z="kfO1UkMjc6TzL59RhLVOlLBwOeg="/>
+            <table:column id="c_com_jieyou_adhd_domain_Conclusion_lowerBound" property="lowerBound" z="KiN3mrIOcNNWHeCY4uhGjVR48I0="/>
+            <table:column id="c_com_jieyou_adhd_domain_Conclusion_upperLimit" property="upperLimit" z="UtGqhom9QpbCzDhFhjOYwxE/I+I="/>
+            <table:column id="c_com_jieyou_adhd_domain_Conclusion_conclusion" property="conclusion" z="doI+RYP6JYQghJl7+aa+DAZ2oG4="/>
+        </table:table>
+    </page:list>
+</div>
