@@ -9,76 +9,18 @@ xmlns:form1="urn:jsptagdir:/WEB-INF/tags/form"
 	<jsp:output omit-xml-declaration="yes" />
 <script type="text/javascript">
 
-function formSubmit(formid, msgboxid){
-
- dojo.xhrPost({
-
-  form: formid,
-
-  handleAs: "text",
-
-  handle: function(data,args){
-
-   if(typeof data == "error"){
-
-    console.warn("error!",args);
-
-   }else{
-
-    // show server response in the firebug console
-
-    console.log(data);
-
-   }
-
-   dojo.byId(msgboxid).innerHTML = data;
-
-  }
-
- });
-
-};
 function getAnswer(formid){
-	
-	var n = dojo.byId("test"); 
-	n.value="linyuan";
-	 dojo.attr('_answers_id', {
-         value: "1"
-     });
 	var elements= dojo.query('input:checked', formid);
-	
 	var values=[];
-	dojo.forEach(
-			elements,
-			  function(node, index, array) {
-				values.push( dojo.attr(node, "value") );
-			  }
-			);
-	elements=dojo.query("input[name*='question']"); 
-	elements= dojo.query("[name^=question]"); 
-
-  result=values.join('');
-	 dojo.attr('_answers_id', {
-         value: result
-     });
-	 formSubmit(record, main);
+	dojo.forEach(elements,function(node, index, array) {values.push( dojo.attr(node, "value") );});
+    result=values.join('');
+	dojo.attr('_answers_id', {value: result});
+	document.forms[0].submit(); 
 	return false;
- 
 };
 
 </script>
-
-	<h1>Hello</h1>
-<div id="fsettingsmsgbox"></div>
-
-<form method="post" action="settings/update" id="fsettings">
-
-<input id="test" type="text" name="lastname" value="test"/>
-
-<input type="button" value="Save settings" onclick="formSubmit('fsettings', 'fsettingsmsgbox');" />
-
-</form>
-
+<div style="overflow: hidden; width:30px; height:0px;">
   <form1:create id="fc_com_jieyou_adhd_domain_Record" modelAttribute="record" path="/records" render="${empty dependencies}" z="DY/o+N6LhF8REId41K4J6Pg7mAw=">
         <field:select field="scale" id="c_com_jieyou_adhd_domain_Record_scale" itemValue="id" items="${scales}" path="/scales" required="true" z="tzcqyieC+8+2DtUDFpsLI3QOV+o="/>
         <field:input field="patientId" id="c_com_jieyou_adhd_domain_Record_patientId" required="true" z="tPuv8lTLN5WIduZgVmLaQG/vlgo="/>
@@ -87,6 +29,8 @@ function getAnswer(formid){
         <field:checkbox field="isFinished" id="c_com_jieyou_adhd_domain_Record_isFinished" z="Eb1Vl2Nsk8X2MtgxSAVwngA37X0="/>
     </form1:create>
     <form1:dependency dependencies="${dependencies}" id="d_com_jieyou_adhd_domain_Record" render="${not empty dependencies}" z="Md7ax8nxyYKfvbG2zgMoCAoWceo="/>
+	
+</div>
 	<page:list id="pl_com_jieyou_adhd_domain_Scale"
 		items="${scale.questions}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
 		<form id="myform">
