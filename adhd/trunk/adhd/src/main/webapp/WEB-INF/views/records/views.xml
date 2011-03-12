@@ -4,7 +4,7 @@
     <definition extends="default" name="records/list">
         <put-attribute name="body" value="/WEB-INF/views/records/list.jspx"/>
     </definition>
-<definition extends="page" name="records/show">
+<definition extends="default" name="records/show">
         <put-attribute name="body" value="/WEB-INF/views/records/show.jspx"/>
     </definition>
 <definition extends="default" name="records/create">
