@@ -5,7 +5,12 @@
   <spring:message var="title" code="reasons_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>父母与ADHD</h1></center>
-   <center><h2>8、有几种ADHD孩子在小学教室中不服从的理由</h2></center>
+   <center><h2>8、有几种ADHD孩子在小学教室中不服从的理由</h2>
+   <p>
+           上一篇<a href="${home}/adhd/parentsandadhd/improvesocialskills">提高社会技能</a>|
+           下一篇<a href="${home}/adhd/parentsandadhd/improveperformance">提高表现的持久性</a>
+   </p>
+   </center>
     <p>
 他们对你的指令没留意-跑神。<br />
 他们不理会你而在做更有趣的事。<br />

@@ -5,7 +5,12 @@
   <spring:message var="title" code="littlesuggestions_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>父母与ADHD</h1></center>
-   <center><h2>4、关于管理组织ADHD孩子的小建议</h2></center>
+   <center><h2>4、关于管理组织ADHD孩子的小建议</h2>
+   <p>
+   上一篇：<a href="${home}/adhd/parentsandadhd/moresuggestions">更多给小学ADHD孩子的建议</a>|
+   下一篇：<a href="${home}/adhd/parentsandadhd/increasingtime">增加你的ADHD小孩子在任务上的时间</a>
+   </p>  
+   </center>
     <p>
 管理ADHD孩子的环境。<br />
 在他的学习桌上使用有标签的分格以便于他能很容易找到东西。<br />
