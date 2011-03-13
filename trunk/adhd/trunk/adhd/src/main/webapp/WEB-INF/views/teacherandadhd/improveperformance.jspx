@@ -5,7 +5,13 @@
   <spring:message var="title" code="improveperformance_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>13、提高表现的持久性</h2></center>
+   <center><h2>13、提高表现的持久性</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/obedientmethod">更多的增加顺从的方法</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/concentration">更多关于ADHD孩子集中注意力</a>
+    </p>
+    </center>
+   
     <p>
 计算机对注意缺陷孩子的反馈是极迅速的。它们可以提供1对1的练习，并且它们可以给予高强度的刺激。一旦需要就要对ADD ADHD孩子使用它们。<br />
 你可能发现当你要求ADD ADHD孩子改变自己的行为时，他们却很难改变。如果需要在日常习惯上有所改变就要养成良好习惯，并在事前告知孩子。这样做孩子能更好的集中在要提高的方面。<br />

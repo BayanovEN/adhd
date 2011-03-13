@@ -5,7 +5,13 @@
   <spring:message var="title" code="socialskills_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>10、更多建议：ADHD小孩子的社会技能</h2></center>
+   <center><h2>10、更多建议：ADHD小孩子的社会技能</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/improvesocialskills">提高社会技能</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/reasons">有几种ADHD孩子在小学教室中不服从的理由</a>
+    </p>
+    </center>
+   
     <p>
 有注意缺陷的小孩子在有指导的合作团队中也能表现良好。小团队由3-5人组成，他们扎成堆共同完成作业或任务，鼓励孩子们分享团队的意见和责任，并给出了理想的进行人际交流技能的背景环境。<br />
 小的由2-4人组成的游戏小组能帮助ADD ADHD孩子发展有效的社会技能。如果能把社会上的竞争伙伴自愿的包纳进来，这样的小组会最有效。这样的小组应集中在强调互动合作活动上。<br />

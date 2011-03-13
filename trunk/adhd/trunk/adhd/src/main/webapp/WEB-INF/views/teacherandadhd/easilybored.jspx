@@ -5,7 +5,13 @@
   <spring:message var="title" code="easilybored_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>3、ADHD 孩子容易厌烦</h2></center>
+   <center><h2>3、ADHD 孩子容易厌烦</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/adhdclass">在小学给ADHD的孩子上课</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/homeworkandtips">给小学的ADHD孩子的作业单和其他小贴士</a>
+    </p>
+    </center>
+   
     <p>
 有注意缺陷的孩子对他们发现有刺激并有魅力的环境反应要好的多。不断变换教授方式、传媒和节奏有助于延长他们的兴趣。<br />
 小学年龄阶段的ADHD孩子一般都认为需要动手的课程比较有魅力。<br />

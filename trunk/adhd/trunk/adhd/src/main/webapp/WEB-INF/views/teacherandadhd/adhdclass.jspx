@@ -5,7 +5,13 @@
   <spring:message var="title" code="adhdclass_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>2、在小学给ADHD的孩子上课</h2></center>
+   <center><h2>2、在小学给ADHD的孩子上课</h2>
+    <p>
+          上一篇： <a href="${home}/adhd/teacherandadhd/teacherandadhd">教室建立</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/easilybored">ADHD 孩子容易厌烦</a>
+    </p>
+    </center>
+   
     <p>
 一旦需要给有注意缺陷的孩子进行个别辅导，可以让年龄大的孩子辅导他，并且可以让ADHD孩子去辅导年龄小的孩子。<br />
 给ADHD的孩子把要学习的课中关键概念或词汇列出提纲。<br />
