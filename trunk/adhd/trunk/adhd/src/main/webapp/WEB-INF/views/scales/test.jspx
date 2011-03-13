@@ -20,7 +20,7 @@ function getAnswer(formid){
 };
 
 </script>
-<div style="overflow: hidden; width:30px; height:0px;">
+<div style="overflow: hidden; width:0px; height:0px;">
   <form1:create id="fc_com_jieyou_adhd_domain_Record" modelAttribute="record" path="/records" render="${empty dependencies}" z="DY/o+N6LhF8REId41K4J6Pg7mAw=">
         <field:select field="scale" id="c_com_jieyou_adhd_domain_Record_scale" itemValue="id" items="${scales}" path="/scales" required="true" z="tzcqyieC+8+2DtUDFpsLI3QOV+o="/>
         <field:input field="patientId" id="c_com_jieyou_adhd_domain_Record_patientId" required="true" z="tPuv8lTLN5WIduZgVmLaQG/vlgo="/>
