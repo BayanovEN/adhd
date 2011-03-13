@@ -5,7 +5,11 @@
   <spring:message var="title" code="teacherandadhd_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>1、教室建立</h2></center>
+   <center><h2>1、教室建立</h2>
+    <p>
+          下一篇：<a href="${home}/adhd/teacherandadhd/adhdclass">在小学给ADHD的孩子上课</a>
+    </p>
+    </center>
     <p>
      对于ADHD孩子的一个黄金法则是“周围的干扰越少越好”。<br />
 我们希望ADHD孩子能对该集中的对象在该集中注意力时集中。<br />

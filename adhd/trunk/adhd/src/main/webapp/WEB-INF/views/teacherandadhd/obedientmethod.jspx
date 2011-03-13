@@ -5,7 +5,13 @@
   <spring:message var="title" code="obedientmethod_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>12、更多的增加顺从的方法</h2></center>
+   <center><h2>12、更多的增加顺从的方法</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/reasons">有几种ADHD孩子在小学教室中不服从的理由</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/improveperformance">提高表现的持久性</a>
+    </p>
+    </center>
+   
     <p>
 不要因为ADD ADHD孩子不恰当的行为而侮辱他，这时能指出一个替代性的办法才是正确的办法。这样可以给他一个明确的期望、方法并且还能避免对缺点的重复所带来的伤害。<br />
 在一些小学，老师与孩子事先约定好提示暗号。当不适当的行为发生时，老师可以给出视觉信号（摸耳朵）或口头信号（注意，我在寻找注意听讲的孩子）。这样的提示可以避免直接的冲突不会刺伤自尊。这不仅适用于老师也同样适用于其他能支持孩子的人，父母、朋友等等。<br />

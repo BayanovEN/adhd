@@ -5,7 +5,13 @@
   <spring:message var="title" code="managebehaviors_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>8、管理冲动行为</h2></center>
+   <center><h2>8、管理冲动行为</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/increasingtime">增加你的ADHD小孩子在任务上的时间</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/improvesocialskills">提高社会技能</a>
+    </p>
+    </center>
+   
     <p>
 “ADHD”小孩子往往做事前不思考。从行为学上看，这是缺乏对因果关系的理解。注意缺陷的孩子不考虑他们行为的后果。他们讲话也不考虑别人怎么看。<br />
 研究还发现注意缺陷的孩子能口头讲述在特定地点的行为规范但却很难将其内化并产生理性的行为。难以延迟对自己的满足更增加了冲动行为。<br />

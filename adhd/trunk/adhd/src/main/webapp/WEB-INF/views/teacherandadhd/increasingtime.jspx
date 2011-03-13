@@ -5,7 +5,13 @@
   <spring:message var="title" code="increasingtime_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>7、增加你的ADHD小孩子在任务上的时间</h2></center>
+   <center><h2>7、增加你的ADHD小孩子在任务上的时间</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/littlesuggestions">关于管理组织ADHD孩子的小建议</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/managebehaviors">管理冲动行为</a>
+    </p>
+    </center>
+   
     <p>
 促进注意缺陷孩子做事情的时间，而不是完成任务的时间。奖励你希望他们在学校中做的事。要事先列出你要奖励的行为和你不希望出现的行为。在他的书桌上放一只分钟记时钟。问问你的孩子在做某件事前考虑做这件事需要多久，然后让他定上时间看看最终用了多少时间。大多数有注意缺陷的小孩子都不能至始至终的保持注意力，他们需要不同水平的刺激来保持注意力集中。<br />
 ADHD: Time on Task Tips for Elementary School <br />

@@ -5,7 +5,13 @@
   <spring:message var="title" code="homeworkandtips_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>教师与ADHD</h1></center>
-   <center><h2>4、给小学的ADHD孩子的作业单和其他小贴士</h2></center>
+   <center><h2>4、给小学的ADHD孩子的作业单和其他小贴士</h2>
+   <p>
+          上一篇：<a href="${home}/adhd/teacherandadhd/easilybored">ADHD 孩子容易厌烦</a>|
+          下一篇：<a href="${home}/adhd/teacherandadhd/moresuggestions">更多给小学ADHD孩子的建议</a>
+    </p>
+    </center>
+   
     <p>
 强调作业的质量而不是数量。这才应该是做老师真正要的。<br />
 ADHD的孩子会很容易被压跨和泄气。所以应该减少一页上的作业量，一页上不是30道题而是应该只给10-15道。这样的话ADHD孩子就不感到被压跨，而且成功的感觉可以建立良好的自尊体系，这样才能让他真正完成全部作业。<br />
