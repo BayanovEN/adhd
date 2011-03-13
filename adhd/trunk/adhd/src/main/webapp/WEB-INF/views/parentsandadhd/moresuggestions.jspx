@@ -5,7 +5,12 @@
   <spring:message var="title" code="moresuggestions_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>父母与ADHD</h1></center>
-   <center><h2>3、更多给小学ADHD孩子的建议</h2></center>
+   <center><h2>3、更多给小学ADHD孩子的建议</h2>
+   <p>
+   上一篇：<a href="${home}/adhd/parentsandadhd/homeworkandtips">给小学的ADHD孩子的作业单和其他小贴士</a>|
+   下一篇：<a href="${home}/adhd/parentsandadhd/littlesuggestions">关于管理组织ADHD孩子的小建议</a>
+   </p>   
+   </center>
     <p>
 使用黑色印刷体字作为作业和考试用字。（尽量避免用手写题目或用彩色字体）<br />
 在能造成纯白纸反光的房间使用压光纸张比较好。<br />

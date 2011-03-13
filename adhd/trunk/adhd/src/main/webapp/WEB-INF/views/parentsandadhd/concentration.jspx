@@ -5,7 +5,12 @@
   <spring:message var="title" code="concentration_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>父母与ADHD</h1></center>
-   <center><h2>10、更多关于ADHD孩子集中注意力</h2></center>
+   <center><h2>10、更多关于ADHD孩子集中注意力</h2>
+   <p>
+   上一篇：<a href="${home}/adhd/parentsandadhd/improveperformance">提高表现的持久性</a>|
+   下一篇：沒有了
+   </p>  
+   </center>
     <p>
 ADD ADHD孩子如果使用药物治疗注意力问题比如用利它林，大概在服药后45分钟到2.2小时是最佳的作用期。其它药物会有所不同，最好与医生交流药物的最大药效期。如果可能，尽量为ADD ADHD孩子在药效好的时期内制定需要注意力的任务的计划表。可以与家长合作完成。<br />
 一致性的阶梯性个性化刺激控制计划就很有可能成功。结果和控制的互动反应要尽可能的及时。阶段性的变换奖励常常是必须的。<br />

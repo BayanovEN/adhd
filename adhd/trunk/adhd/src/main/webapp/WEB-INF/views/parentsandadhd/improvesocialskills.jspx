@@ -5,7 +5,12 @@
   <spring:message var="title" code="improvesocialskills_titlepane" arguments="${app_name}" />
   <util:panel id="title" title="${title}">   
    <center><h1>父母与ADHD</h1></center>
-   <center><h2>7、提高社会技能</h2></center>
+   <center><h2>7、提高社会技能</h2>
+   <p>
+   上一篇：<a href="${home}/adhd/parentsandadhd/managebehaviors">管理冲动行为</a>|
+   下一篇：<a href="${home}/adhd/parentsandadhd/reasons">有几种ADHD孩子在小学教室中不服从的理由</a>
+   </p> 
+   </center>
     <p>
 给有ADD ADHD的孩子提供一个安全的环境。要让孩子知道你是他的朋友并且你总会帮助他。要真正的尊重他。千万不要在他的伙伴面前藐视他。他和他的伙伴都知道他有些不一样，如果老师藐视孩子那么其他的孩子就会象得到老师允许一样也藐视他。孩子们就都会变的很残酷。<br />
 有注意缺陷的孩子会在社会上遭遇很多麻烦，尤其是在处理伙伴关系方面。他们不太能感受正常的社会暗示，他们行为冲动，对自己对他人的影响缺乏自知，进入角色比较慢，往往非常自我的把别人的行为当作批评，并且对积极反馈不敏感。<br />
