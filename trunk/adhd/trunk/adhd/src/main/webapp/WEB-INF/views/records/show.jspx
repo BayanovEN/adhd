@@ -35,15 +35,22 @@
 								value="${question.questionNo}.${question.questionContent}" />
 						</td>
 						
-						<c:set var="checked" value="true" />
+						
 						<c:set var="name" value="question${question.questionNo}" />
 						 <c:set var="elementClass" value="black" />
 						<c:forEach items="${scale.answers}" var="answer">
 						<c:set var="score" value="${answer.score}" />
-						   <c:if test="${answers[i]==score}">
-						    <c:set var="elementClass" value="red" />
-						   </c:if>
-							<td class="${elementClass}"><input type="radio" disabled="disabled" dojoType="dijit.form.RadioButton"
+					<c:choose>
+						<c:when test="${answers[i]==score}">
+							<c:set var="checked" value="true" />
+							<c:set var="elementClass" value="red" />
+						</c:when>
+						<c:otherwise>
+							<c:set var="checked" value="false" />
+							<c:set var="elementClass" value="black" />
+						</c:otherwise>
+					</c:choose>
+					<td class="${elementClass}"><input type="radio" disabled="disabled" dojoType="dijit.form.RadioButton"
 								name="question${question.questionNo}"
 								id="question${question.questionNo}" checked="${checked}"
 								value="${answer.score}" /> <label
