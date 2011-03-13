@@ -34,7 +34,7 @@ public class Answer {
     private String answerDescription;
 
     @NotNull
-    @Min(1L)
+    @Min(0L)
     private Integer score;
 
 	public Scale getScale() {
