@@ -5,37 +5,6 @@
 
   <spring:url value="/" var="home"/>
   <center>
-  <span>
-    <a href="${home}">
-      <spring:message code="button_home"/>
-    </a>
-  </span>
-  
-  <c:if test="${pageContext['request'].userPrincipal != null}">
-    <c:out value=" | "/>
-    <span>
-      <spring:url value="/resources/j_spring_security_logout" var="logout"/>
-      <a href="${logout}">
-        <spring:message code="security_logout"/>
-      </a>
-    </span>
-  </c:if>
 
-  <span id="language">
-    <c:out value=" | "/>
-    <spring:message code="global_language"/>
-    <c:out value=": "/>
-  <util:language label="English" locale="zh_cn"/>
-    </span>
-  <util:theme/>
-
-  <spring:url value="/resources/images/springsource-logo.png" var="logo"/>
-  <spring:message code="global_sponsored" var="sponsored"/>
-  
-  <span>
-    <a href="http://springsource.com" title="${fn:escapeXml(sponsored)}">
-      <img align="right" alt="${fn:escapeXml(sponsored)}" src="${logo}"/>
-    </a>
-  </span>
   </center>
 </div>
