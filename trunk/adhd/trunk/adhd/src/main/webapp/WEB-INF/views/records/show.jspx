@@ -69,6 +69,8 @@
 			
 	</page:list>
     
+    <center>
     <h1>结论</h1>
     <c:out value="${conclusion}"></c:out>
+    </center>
 </div>
