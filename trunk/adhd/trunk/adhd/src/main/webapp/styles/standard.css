@@ -2,12 +2,12 @@
 
 body,div,td {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	color: #454546;
 }
 
 body {
-	background-color: #fff;
+	background-color: #fff;	
 	text-align: center;
 }
 
@@ -150,17 +150,30 @@ a.menu, a.menu:link, a.menu:visited {display:block; width:150px; height:25px;}
 
 h1,h2,h3 {
 	font-family: Helvetica, sans-serif;
-	color: #e59906;
+	color: #0080B0;
 }
 
 h1 {
 	font-size: 30px;
 	line-height: 26px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-bottom-color: #999;
+	padding-bottom:10px;
+	text-align: center;
+	
+	margin-right: 50px;
+	margin-left: 50px;
+	font-family: "楷体_GB2312", "方正舒体", "汉仪楷体简";
 }
+
 
 h2 {
 	font-size: 18px;
 	line-height: 20px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-bottom-color: #999;
 }
 
 h3 {
@@ -173,6 +186,20 @@ h4 {
 	font-size: 14px;
 	line-height: 20px;
 }
+.smtitle{
+	font-size: 18px;
+	background-image: url(../images/smtt.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-left: 30px;
+	font-family: "楷体_GB2312", "方正舒体", "汉仪楷体简";
+	line-height: 20px;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-bottom-color: #999;
+	width:300px;
+}
+
 
 .errors {
 	color: red;
@@ -367,3 +394,31 @@ fieldset th {
 }
 .red{color:#F00;}
 .black{color:#000000;}
+
+.firstword {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #FF8B53;
+	float: left;
+	height: 30px;
+	width: 30px;
+	font-family: "楷体_GB2312", "方正舒体", "汉仪楷体简";
+}
+.duanluo1 {
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-bottom-color: #95B4C4;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #95B4C4;
+	padding: 5px;
+	margin-top: 10px;
+}
+.imgright {
+	border: 2px solid #EBF1FF;
+	float: right;
+	height: 220px;
+	width: 180px;
+	position: relative;
+	margin: 5px;
+}
