@@ -94,13 +94,13 @@
               <spring:url value="${path}/${item[typeIdFieldName]}" var="link_url">
                 <spring:param name="${link }" />
               </spring:url>
-              <spring:url value="/resources/images/update.png" var="update_image_url" />
-              <spring:message arguments="${typeName}" code="entity_update" var="update_label" />
+              <spring:url value="/resources/images/test.png" var="test_image_url" />
+              <spring:message arguments="${typeName}" code="entity_test" var="update_label" />
               <a href="${fn:escapeXml(link_url)}" alt="${fn:escapeXml(update_label)}" title="${fn:escapeXml(update_label)}">
-                <img alt="${fn:escapeXml(update_label)}" class="image" src="${fn:escapeXml(update_image_url)}" title="${fn:escapeXml(update_label)}" />
+                <img alt="${fn:escapeXml(update_label)}" class="image" src="${fn:escapeXml(test_image_url)}" title="${fn:escapeXml(update_label)}" />
               </a>
             </td>
-          </c:if>
+          </c:if><!--
           <c:if test="${delete}">
             <td>
               <spring:url value="${path}/${item[typeIdFieldName]}" var="delete_form_url" />
@@ -122,7 +122,7 @@
               </form:form>
             </td>
           </c:if>
-        </tr>
+        --></tr>
       </c:forEach>
       <tr class="footer">
         <td colspan="10">
