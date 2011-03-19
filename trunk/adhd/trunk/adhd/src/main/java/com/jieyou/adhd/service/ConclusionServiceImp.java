@@ -1,5 +1,7 @@
 package com.jieyou.adhd.service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 import org.springframework.stereotype.Repository;
@@ -39,13 +41,13 @@ public class ConclusionServiceImp implements ConclusionService {
 	}
 
 	@Override
-	public int[] getAnswers(Record record) {
+	public Integer[] getAnswers(Record record) {
 		String answers=record.getAnswers();
-		int[] result=new int[answers.length()];
-		char[] c=answers.toCharArray();
-		for (int i = 0; i < c.length; i++) {
-			result[i]=c[i]-48;
+		String[] st=answers.split(",");
+		List<Integer> result=new ArrayList<Integer>();
+		for (int i = 0; i < st.length; i++) {
+			result.add(Integer.parseInt(st[i]));
 		}
-		return result;
+		return result.toArray(new Integer[result.size()]);
 	}
 }
