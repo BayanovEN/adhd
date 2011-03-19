@@ -12,7 +12,7 @@ public interface ConclusionService {
    
     public String getResult(Record record);
 
-	public int[] getAnswers(Record record);
+	public Integer[] getAnswers(Record record);
 
 
 }

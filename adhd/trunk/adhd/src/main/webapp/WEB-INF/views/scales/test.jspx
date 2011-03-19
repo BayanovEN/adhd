@@ -23,6 +23,7 @@ function getAnswer(formid){
 };
 
 </script>
+<div style="overflow: hidden; width:0px; height:0px;">
   <form1:create id="fc_com_jieyou_adhd_domain_Record" modelAttribute="record" path="/records" render="${empty dependencies}" z="DY/o+N6LhF8REId41K4J6Pg7mAw=">
         <field:input field="scale" id="c_com_jieyou_adhd_domain_Record_scale" required="true" z="tzcqyieC+8+2DtUDFpsLI3QOV+o="/>
         <field:input field="patientId" id="c_com_jieyou_adhd_domain_Record_patientId" required="true" z="tPuv8lTLN5WIduZgVmLaQG/vlgo="/>
@@ -31,6 +32,7 @@ function getAnswer(formid){
         <field:checkbox field="isFinished" id="c_com_jieyou_adhd_domain_Record_isFinished" z="Eb1Vl2Nsk8X2MtgxSAVwngA37X0="/>
     </form1:create>
     <form1:dependency dependencies="${dependencies}" id="d_com_jieyou_adhd_domain_Record" render="${not empty dependencies}" z="Md7ax8nxyYKfvbG2zgMoCAoWceo="/>
+   </div>
 	
 	<page:list id="pl_com_jieyou_adhd_domain_Scale"
 		items="${scale.questions}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
