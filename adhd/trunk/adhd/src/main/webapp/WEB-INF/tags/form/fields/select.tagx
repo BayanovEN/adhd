@@ -5,6 +5,7 @@
   <jsp:directive.attribute name="field" type="java.lang.String" required="true" description="The field exposed from the form backing object" />
   <jsp:directive.attribute name="path" type="java.lang.String" required="true" description="The relative path to the referenced resource" />
   <jsp:directive.attribute name="items" type="java.util.Collection" required="true" description="The name of the collection displayed in the select box" />
+  <jsp:directive.attribute name="selectedItem" type="java.lang.Object"  required="false" description="The item of the collection to be selected" />
   <jsp:directive.attribute name="label" type="java.lang.String" required="false" description="The label used for this field, will default to a message bundle if not supplied" />
   <jsp:directive.attribute name="itemValue" type="java.lang.String" required="false" description="The identifier used as value in the select box (defaults to 'id' for non enum types)" />
   <jsp:directive.attribute name="required" type="java.lang.Boolean" required="false" description="Indicates if this field is required (default false)" />
@@ -49,9 +50,18 @@
                 <c:when test="${disableFormBinding}">
                   <select id="_${sec_field}_id" name="${sec_field}" multiple="${multiple}">
                     <c:forEach items="${items}" var="item">
-                      <option value="${item}">
+                     
+                      <c:when test="${item==selectedItem}">
+                        
+                       <option selected="selected" value="${item}">
                         <spring:eval expression="item" />
                       </option>
+                      </c:when>
+                      <c:otherwise>
+                      <option selected="selected" value="${item}">
+                        <spring:eval expression="item" />
+                      </option>
+                      </c:otherwise>
                     </c:forEach>
                   </select>
                 </c:when>

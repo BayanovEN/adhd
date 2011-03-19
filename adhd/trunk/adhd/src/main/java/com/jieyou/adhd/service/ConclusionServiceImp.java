@@ -24,8 +24,10 @@ public class ConclusionServiceImp implements ConclusionService {
 		// TODO Auto-generated method stub
 		Integer result=0;
 		String answer=record.getAnswers();
-		for(int i=0;i<answer.length();i++){
-			result += Integer.valueOf(answer.substring(i,i+1));
+		String[] num=answer.split(",");
+		for (int i = 0; i < num.length; i++) {
+			String string = num[i];
+			result += Integer.valueOf(string);
 		}
 		Set<Conclusion> conclusions = record.getScale().getConclusions();
 		for (Conclusion conclusion : conclusions) {
