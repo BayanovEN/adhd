@@ -12,15 +12,17 @@ xmlns:form1="urn:jsptagdir:/WEB-INF/tags/form"
 function getAnswer(formid){
 	var elements= dojo.query('input:checked', formid);
 	var values=[];
-	dojo.forEach(elements,function(node, index, array) {values.push( dojo.attr(node, "value") );});
+	dojo.forEach(elements,function(node, index, array) {values.push( dojo.attr(node, "value") );
+	values.push( ',');
+	});
     result=values.join('');
 	dojo.attr('_answers_id', {value: result});
+	dojo.attr('_scale_id', {value: "${scale.id}"});
 	document.forms[0].submit(); 
 	return false;
 };
 
 </script>
-<div style="overflow: hidden; width:0px; height:0px;">
   <form1:create id="fc_com_jieyou_adhd_domain_Record" modelAttribute="record" path="/records" render="${empty dependencies}" z="DY/o+N6LhF8REId41K4J6Pg7mAw=">
         <field:input field="scale" id="c_com_jieyou_adhd_domain_Record_scale" required="true" z="tzcqyieC+8+2DtUDFpsLI3QOV+o="/>
         <field:input field="patientId" id="c_com_jieyou_adhd_domain_Record_patientId" required="true" z="tPuv8lTLN5WIduZgVmLaQG/vlgo="/>
@@ -29,13 +31,12 @@ function getAnswer(formid){
         <field:checkbox field="isFinished" id="c_com_jieyou_adhd_domain_Record_isFinished" z="Eb1Vl2Nsk8X2MtgxSAVwngA37X0="/>
     </form1:create>
     <form1:dependency dependencies="${dependencies}" id="d_com_jieyou_adhd_domain_Record" render="${not empty dependencies}" z="Md7ax8nxyYKfvbG2zgMoCAoWceo="/>
-</div>	
-
-
+	
 	<page:list id="pl_com_jieyou_adhd_domain_Scale"
 		items="${scale.questions}" z="r/tyaIBJbsPXxtBbr3OeTwaErks=">
+<h1>问卷</h1>
 		<form id="myform">
-<center><h1>调查问卷</h1></center>
+
 			<table>
 				<c:set var="currentDescription" value="‘’" />
 				<c:forEach items="${scale.questions}" var="question">
@@ -74,9 +75,10 @@ function getAnswer(formid){
 				</c:forEach>
 			</table>
 		</form>
-		<center><button
-			onclick="getAnswer(myform)">提交并显示结果</button>
-		</center>	
+		<button
+			onclick="getAnswer(myform)">Show
+			form submit value</button>
+			
 	</page:list>
 
 </div>

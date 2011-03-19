@@ -62,13 +62,15 @@ public class ScaleController {
         record.setPatientId("1");
         record.setDoneDay(new Date());
         record.setIsFinished(true);
+        Scale scale = Scale.findScale(id);
+        record.setScale(scale);
 		model.addAttribute("record", record);
         model.addAttribute("record_doneday_date_format", DateTimeFormat.patternForStyle("S-", LocaleContextHolder.getLocale()));
         List dependencies = new ArrayList();
         if (Scale.countScales() == 0) {
             dependencies.add(new String[]{"scale", "scales"});
         }
-        model.addAttribute("scale", Scale.findScale(id));
+		model.addAttribute("scale", scale);
         model.addAttribute("itemId", id);
         model.addAttribute("dependencies", dependencies);
         return "scales/test";
